@@ -1,0 +1,1678 @@
+2018-06-05 14:27:00,031:INFO: Initializing tf session
+2018-06-05 14:27:04,717:INFO: Epoch 1 out of 15
+2018-06-05 14:27:05,318:INFO: acc 64.71 - f1 0.00
+2018-06-05 14:27:07,253:INFO: - new best score!
+2018-06-05 14:27:07,253:INFO: Epoch 2 out of 15
+2018-06-05 14:27:07,390:INFO: acc 64.71 - f1 0.00
+2018-06-05 14:27:09,311:INFO: - new best score!
+2018-06-05 14:27:09,311:INFO: Epoch 3 out of 15
+2018-06-05 14:27:09,448:INFO: acc 64.71 - f1 0.00
+2018-06-05 14:27:11,441:INFO: - new best score!
+2018-06-05 14:27:11,441:INFO: Epoch 4 out of 15
+2018-06-05 14:27:11,580:INFO: acc 64.71 - f1 0.00
+2018-06-05 14:27:13,434:INFO: - new best score!
+2018-06-05 14:27:13,434:INFO: Epoch 5 out of 15
+2018-06-05 14:27:13,572:INFO: acc 64.71 - f1 0.00
+2018-06-05 14:27:15,456:INFO: - new best score!
+2018-06-05 14:27:15,457:INFO: Epoch 6 out of 15
+2018-06-05 14:27:15,598:INFO: acc 64.71 - f1 0.00
+2018-06-05 14:27:17,580:INFO: - new best score!
+2018-06-05 14:27:17,580:INFO: Epoch 7 out of 15
+2018-06-05 14:27:17,722:INFO: acc 64.71 - f1 0.00
+2018-06-05 14:27:19,731:INFO: - new best score!
+2018-06-05 14:27:19,731:INFO: Epoch 8 out of 15
+2018-06-05 14:27:19,875:INFO: acc 69.41 - f1 0.00
+2018-06-05 14:27:21,782:INFO: - new best score!
+2018-06-05 14:27:21,783:INFO: Epoch 9 out of 15
+2018-06-05 14:27:21,928:INFO: acc 69.41 - f1 0.00
+2018-06-05 14:27:23,926:INFO: - new best score!
+2018-06-05 14:27:23,926:INFO: Epoch 10 out of 15
+2018-06-05 14:27:24,068:INFO: acc 74.12 - f1 42.11
+2018-06-05 14:27:25,983:INFO: - new best score!
+2018-06-05 14:27:25,983:INFO: Epoch 11 out of 15
+2018-06-05 14:27:26,124:INFO: acc 74.12 - f1 42.11
+2018-06-05 14:27:28,172:INFO: - new best score!
+2018-06-05 14:27:28,172:INFO: Epoch 12 out of 15
+2018-06-05 14:27:28,318:INFO: acc 74.12 - f1 42.11
+2018-06-05 14:27:30,315:INFO: - new best score!
+2018-06-05 14:27:30,315:INFO: Epoch 13 out of 15
+2018-06-05 14:27:30,463:INFO: acc 74.12 - f1 42.11
+2018-06-05 14:27:32,403:INFO: - new best score!
+2018-06-05 14:27:32,404:INFO: Epoch 14 out of 15
+2018-06-05 14:27:32,544:INFO: acc 78.82 - f1 59.26
+2018-06-05 14:27:34,576:INFO: - new best score!
+2018-06-05 14:27:34,576:INFO: Epoch 15 out of 15
+2018-06-05 14:27:34,716:INFO: acc 78.82 - f1 59.26
+2018-06-05 14:27:36,623:INFO: - new best score!
+2018-06-05 14:27:46,514:INFO: Initializing tf session
+2018-06-05 14:27:47,794:INFO: Reloading the latest trained model...
+2018-06-05 14:27:47,794:INFO: Restoring parameters from results/test/model.weights/
+2018-06-05 14:27:48,023:INFO: Testing model over test set
+2018-06-05 14:27:48,110:INFO: acc 78.82 - f1 59.26
+2018-06-05 14:27:48,110:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-06-05 14:28:27,403:INFO: I     love   Paris 
+2018-06-05 14:28:27,404:INFO: B-LOC I-MISC I-ORG 
+2018-06-05 14:29:26,625:INFO: Initializing tf session
+2018-06-05 14:31:03,005:INFO: Initializing tf session
+2018-06-05 14:39:09,818:INFO: Initializing tf session
+2018-06-05 14:39:24,639:DEBUG: diff parser start
+2018-06-05 14:39:24,640:DEBUG: diff parser calculated
+2018-06-05 14:39:24,640:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-05 14:39:24,640:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-05 14:39:24,641:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-05 14:39:24,641:DEBUG: diff parser end
+2018-06-05 14:39:37,315:DEBUG: diff parser start
+2018-06-05 14:39:37,316:DEBUG: diff parser calculated
+2018-06-05 14:39:37,316:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-05 14:39:37,316:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-05 14:39:37,317:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-05 14:39:37,317:DEBUG: diff parser end
+2018-06-05 14:39:42,747:DEBUG: diff parser start
+2018-06-05 14:39:42,747:DEBUG: diff parser calculated
+2018-06-05 14:39:42,747:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-05 14:39:42,747:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-05 14:39:42,748:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-05 14:39:42,748:DEBUG: diff parser end
+2018-06-05 14:45:21,770:INFO: Initializing tf session
+2018-06-05 14:46:09,009:INFO: Initializing tf session
+2018-06-05 14:46:13,918:INFO: Epoch 1 out of 15
+2018-06-05 14:51:29,006:INFO: Initializing tf session
+2018-06-05 14:51:33,893:INFO: Epoch 1 out of 15
+2018-06-05 15:25:55,831:INFO: Initializing tf session
+2018-06-05 15:26:00,672:INFO: Epoch 1 out of 15
+2018-06-05 15:27:21,861:INFO: Initializing tf session
+2018-06-05 15:27:26,661:INFO: Epoch 1 out of 15
+2018-06-05 15:32:27,860:INFO: Initializing tf session
+2018-06-05 15:32:32,844:INFO: Epoch 1 out of 15
+2018-06-05 15:39:17,230:INFO: Initializing tf session
+2018-06-05 15:39:22,175:INFO: Epoch 1 out of 15
+2018-06-05 16:40:56,569:INFO: Initializing tf session
+2018-06-05 16:41:01,689:INFO: Epoch 1 out of 15
+2018-06-05 16:41:56,837:INFO: Initializing tf session
+2018-06-05 16:42:01,781:INFO: Epoch 1 out of 15
+2018-06-05 16:42:37,284:INFO: Initializing tf session
+2018-06-05 16:42:42,195:INFO: Epoch 1 out of 15
+2018-06-05 16:45:49,271:DEBUG: diff parser start
+2018-06-05 16:45:49,277:DEBUG: diff parser calculated
+2018-06-05 16:45:49,277:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-05 16:45:49,277:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-05 16:45:49,278:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-05 16:45:49,278:DEBUG: diff parser end
+2018-06-05 16:50:18,135:DEBUG: diff parser start
+2018-06-05 16:50:18,135:DEBUG: diff parser calculated
+2018-06-05 16:50:18,135:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-05 16:50:18,136:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-05 16:50:18,136:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-05 16:50:18,136:DEBUG: diff parser end
+2018-06-05 16:54:31,098:INFO: Initializing tf session
+2018-06-05 16:54:35,987:INFO: Epoch 1 out of 15
+2018-06-05 17:24:38,043:INFO: Initializing tf session
+2018-06-05 17:24:43,007:INFO: Epoch 1 out of 15
+2018-06-05 17:35:46,421:INFO: Initializing tf session
+2018-06-05 17:43:31,071:INFO: Initializing tf session
+2018-06-05 17:43:35,847:INFO: Epoch 1 out of 15
+2018-06-05 17:48:54,030:INFO: Initializing tf session
+2018-06-05 17:48:58,881:INFO: Epoch 1 out of 15
+2018-06-05 20:57:56,129:INFO: WARNING: randomly initializing word vectors
+2018-06-05 20:58:02,893:INFO: Initializing tf session
+2018-06-05 20:58:05,971:INFO: Epoch 1 out of 15
+2018-06-05 20:59:58,443:INFO: WARNING: randomly initializing word vectors
+2018-06-05 21:00:05,504:INFO: Initializing tf session
+2018-06-05 21:00:08,766:INFO: Epoch 1 out of 15
+2018-06-05 21:00:30,531:INFO: acc 49.86 - f1 0.00
+2018-06-05 21:00:31,856:INFO: - new best score!
+2018-06-05 21:00:31,856:INFO: Epoch 2 out of 15
+2018-06-05 21:00:54,001:INFO: acc 78.47 - f1 9.46
+2018-06-05 21:00:55,260:INFO: - new best score!
+2018-06-05 21:00:55,260:INFO: Epoch 3 out of 15
+2018-06-05 21:01:18,374:INFO: acc 82.53 - f1 3.70
+2018-06-05 21:01:18,374:INFO: Epoch 4 out of 15
+2018-06-05 21:01:42,057:INFO: acc 89.59 - f1 12.85
+2018-06-05 21:01:43,413:INFO: - new best score!
+2018-06-05 21:01:43,413:INFO: Epoch 5 out of 15
+2018-06-05 21:02:06,951:INFO: acc 92.16 - f1 11.93
+2018-06-05 21:02:06,951:INFO: Epoch 6 out of 15
+2018-06-05 21:02:31,124:INFO: acc 94.19 - f1 19.58
+2018-06-05 21:02:32,377:INFO: - new best score!
+2018-06-05 21:02:32,377:INFO: Epoch 7 out of 15
+2018-06-05 21:02:56,433:INFO: acc 94.67 - f1 19.52
+2018-06-05 21:02:56,433:INFO: Epoch 8 out of 15
+2018-06-05 21:03:20,747:INFO: acc 95.20 - f1 25.62
+2018-06-05 21:03:22,158:INFO: - new best score!
+2018-06-05 21:03:22,158:INFO: Epoch 9 out of 15
+2018-06-05 21:03:46,445:INFO: acc 95.60 - f1 27.14
+2018-06-05 21:03:47,808:INFO: - new best score!
+2018-06-05 21:03:47,808:INFO: Epoch 10 out of 15
+2018-06-05 21:04:12,316:INFO: acc 95.77 - f1 28.61
+2018-06-05 21:04:13,672:INFO: - new best score!
+2018-06-05 21:04:13,672:INFO: Epoch 11 out of 15
+2018-06-05 21:04:38,799:INFO: acc 96.02 - f1 31.10
+2018-06-05 21:04:40,064:INFO: - new best score!
+2018-06-05 21:04:40,064:INFO: Epoch 12 out of 15
+2018-06-05 21:05:04,765:INFO: acc 96.50 - f1 35.90
+2018-06-05 21:05:06,208:INFO: - new best score!
+2018-06-05 21:05:06,208:INFO: Epoch 13 out of 15
+2018-06-05 21:05:30,978:INFO: acc 95.98 - f1 31.53
+2018-06-05 21:05:30,978:INFO: Epoch 14 out of 15
+2018-06-05 21:05:56,449:INFO: acc 96.32 - f1 32.43
+2018-06-05 21:05:56,455:INFO: Epoch 15 out of 15
+2018-06-05 21:06:21,433:INFO: acc 96.50 - f1 33.82
+2018-06-05 21:06:21,434:INFO: - early stopping 3 epochs without improvement
+2018-06-05 21:06:23,682:INFO: WARNING: randomly initializing word vectors
+2018-06-05 21:06:30,243:INFO: Initializing tf session
+2018-06-05 21:06:31,082:INFO: Reloading the latest trained model...
+2018-06-05 21:06:31,082:INFO: Restoring parameters from results/test/model.weights/
+2018-06-05 21:06:31,241:INFO: Testing model over test set
+2018-06-05 21:06:37,571:INFO: acc 96.50 - f1 35.90
+2018-06-05 21:06:37,571:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-06-05 21:07:22,678:INFO: exit() 
+2018-06-05 21:07:22,678:INFO: M-合同构成 
+2018-06-07 16:13:37,415:INFO: WARNING: randomly initializing word vectors
+2018-06-07 16:13:44,737:INFO: Initializing tf session
+2018-06-07 16:13:47,956:INFO: Epoch 1 out of 15
+2018-06-07 16:13:48,840:INFO: acc 77.78 - f1 0.00
+2018-06-07 16:13:50,195:INFO: - new best score!
+2018-06-07 16:13:50,195:INFO: Epoch 2 out of 15
+2018-06-07 16:13:50,678:INFO: acc 93.65 - f1 0.00
+2018-06-07 16:13:51,988:INFO: - new best score!
+2018-06-07 16:13:51,989:INFO: Epoch 3 out of 15
+2018-06-07 16:13:52,481:INFO: acc 93.65 - f1 0.00
+2018-06-07 16:13:53,914:INFO: - new best score!
+2018-06-07 16:13:53,914:INFO: Epoch 4 out of 15
+2018-06-07 16:13:54,390:INFO: acc 93.12 - f1 0.00
+2018-06-07 16:13:55,606:INFO: - new best score!
+2018-06-07 16:13:55,607:INFO: Epoch 5 out of 15
+2018-06-07 16:13:56,095:INFO: acc 92.06 - f1 0.00
+2018-06-07 16:13:57,476:INFO: - new best score!
+2018-06-07 16:13:57,476:INFO: Epoch 6 out of 15
+2018-06-07 16:13:57,922:INFO: acc 94.71 - f1 0.00
+2018-06-07 16:13:59,274:INFO: - new best score!
+2018-06-07 16:13:59,275:INFO: Epoch 7 out of 15
+2018-06-07 16:13:59,759:INFO: acc 97.35 - f1 0.00
+2018-06-07 16:14:01,071:INFO: - new best score!
+2018-06-07 16:14:01,071:INFO: Epoch 8 out of 15
+2018-06-07 16:14:01,602:INFO: acc 96.83 - f1 50.00
+2018-06-07 16:14:02,835:INFO: - new best score!
+2018-06-07 16:14:02,835:INFO: Epoch 9 out of 15
+2018-06-07 16:14:03,383:INFO: acc 96.30 - f1 50.00
+2018-06-07 16:14:04,790:INFO: - new best score!
+2018-06-07 16:14:04,791:INFO: Epoch 10 out of 15
+2018-06-07 16:14:05,286:INFO: acc 95.77 - f1 50.00
+2018-06-07 16:14:06,613:INFO: - new best score!
+2018-06-07 16:14:06,613:INFO: Epoch 11 out of 15
+2018-06-07 16:14:07,096:INFO: acc 96.83 - f1 0.00
+2018-06-07 16:14:07,096:INFO: Epoch 12 out of 15
+2018-06-07 16:14:07,637:INFO: acc 96.83 - f1 50.00
+2018-06-07 16:14:08,868:INFO: - new best score!
+2018-06-07 16:14:08,868:INFO: Epoch 13 out of 15
+2018-06-07 16:14:09,293:INFO: acc 96.30 - f1 50.00
+2018-06-07 16:14:10,684:INFO: - new best score!
+2018-06-07 16:14:10,684:INFO: Epoch 14 out of 15
+2018-06-07 16:14:11,104:INFO: acc 96.83 - f1 50.00
+2018-06-07 16:14:12,416:INFO: - new best score!
+2018-06-07 16:14:12,416:INFO: Epoch 15 out of 15
+2018-06-07 16:14:12,907:INFO: acc 96.83 - f1 0.00
+2018-06-07 16:14:15,186:INFO: WARNING: randomly initializing word vectors
+2018-06-07 16:14:22,023:INFO: Initializing tf session
+2018-06-07 16:14:22,878:INFO: Reloading the latest trained model...
+2018-06-07 16:14:22,878:INFO: Restoring parameters from results/test/model.weights/
+2018-06-07 16:14:23,027:INFO: Testing model over test set
+2018-06-07 16:14:23,189:INFO: acc 96.83 - f1 50.00
+2018-06-07 16:14:23,190:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-06-07 16:14:26,016:INFO:        
+2018-06-07 16:14:26,016:INFO: M-合同构成 
+2018-06-07 16:14:30,756:INFO: exit() 
+2018-06-07 16:14:30,757:INFO: M-合同构成 
+2018-06-07 16:20:45,966:INFO: WARNING: randomly initializing word vectors
+2018-06-07 16:20:52,818:INFO: Initializing tf session
+2018-06-07 16:20:55,832:INFO: Epoch 1 out of 15
+2018-06-07 16:20:56,618:INFO: acc 3.17 - f1 0.00
+2018-06-07 16:20:57,879:INFO: - new best score!
+2018-06-07 16:20:57,879:INFO: Epoch 2 out of 15
+2018-06-07 16:20:58,365:INFO: acc 12.70 - f1 0.00
+2018-06-07 16:20:59,603:INFO: - new best score!
+2018-06-07 16:20:59,603:INFO: Epoch 3 out of 15
+2018-06-07 16:21:00,087:INFO: acc 24.87 - f1 0.00
+2018-06-07 16:21:01,430:INFO: - new best score!
+2018-06-07 16:21:01,430:INFO: Epoch 4 out of 15
+2018-06-07 16:21:01,862:INFO: acc 53.97 - f1 0.00
+2018-06-07 16:21:03,017:INFO: - new best score!
+2018-06-07 16:21:03,017:INFO: Epoch 5 out of 15
+2018-06-07 16:21:03,504:INFO: acc 68.25 - f1 0.00
+2018-06-07 16:21:04,836:INFO: - new best score!
+2018-06-07 16:21:04,836:INFO: Epoch 6 out of 15
+2018-06-07 16:21:05,254:INFO: acc 84.13 - f1 0.00
+2018-06-07 16:21:06,507:INFO: - new best score!
+2018-06-07 16:21:06,507:INFO: Epoch 7 out of 15
+2018-06-07 16:21:06,931:INFO: acc 93.12 - f1 0.00
+2018-06-07 16:21:08,214:INFO: - new best score!
+2018-06-07 16:21:08,214:INFO: Epoch 8 out of 15
+2018-06-07 16:21:08,651:INFO: acc 95.77 - f1 0.00
+2018-06-07 16:21:09,824:INFO: - new best score!
+2018-06-07 16:21:09,825:INFO: Epoch 9 out of 15
+2018-06-07 16:21:10,252:INFO: acc 95.24 - f1 0.00
+2018-06-07 16:21:11,616:INFO: - new best score!
+2018-06-07 16:21:11,616:INFO: Epoch 10 out of 15
+2018-06-07 16:21:12,093:INFO: acc 94.71 - f1 0.00
+2018-06-07 16:21:13,356:INFO: - new best score!
+2018-06-07 16:21:13,356:INFO: Epoch 11 out of 15
+2018-06-07 16:21:13,866:INFO: acc 94.71 - f1 0.00
+2018-06-07 16:21:15,029:INFO: - new best score!
+2018-06-07 16:21:15,030:INFO: Epoch 12 out of 15
+2018-06-07 16:21:15,462:INFO: acc 95.24 - f1 0.00
+2018-06-07 16:21:16,772:INFO: - new best score!
+2018-06-07 16:21:16,772:INFO: Epoch 13 out of 15
+2018-06-07 16:21:17,238:INFO: acc 96.30 - f1 50.00
+2018-06-07 16:21:18,522:INFO: - new best score!
+2018-06-07 16:21:18,522:INFO: Epoch 14 out of 15
+2018-06-07 16:21:19,006:INFO: acc 95.77 - f1 50.00
+2018-06-07 16:21:20,287:INFO: - new best score!
+2018-06-07 16:21:20,288:INFO: Epoch 15 out of 15
+2018-06-07 16:21:20,727:INFO: acc 94.71 - f1 0.00
+2018-06-07 16:21:22,265:INFO: WARNING: randomly initializing word vectors
+2018-06-07 16:21:28,077:INFO: Initializing tf session
+2018-06-07 16:21:28,910:INFO: Reloading the latest trained model...
+2018-06-07 16:21:28,910:INFO: Restoring parameters from results/test/model.weights/
+2018-06-07 16:21:29,068:INFO: Testing model over test set
+2018-06-07 16:21:29,229:INFO: acc 95.77 - f1 50.00
+2018-06-07 16:21:29,229:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-06-07 16:25:35,207:INFO: WARNING: randomly initializing word vectors
+2018-06-07 16:25:42,249:INFO: Initializing tf session
+2018-06-07 16:25:45,374:INFO: Epoch 1 out of 15
+2018-06-07 16:25:58,378:INFO: acc 84.42 - f1 1.45
+2018-06-07 16:25:59,739:INFO: - new best score!
+2018-06-07 16:25:59,739:INFO: Epoch 2 out of 15
+2018-06-07 16:26:12,778:INFO: acc 81.11 - f1 30.70
+2018-06-07 16:26:14,109:INFO: - new best score!
+2018-06-07 16:26:14,109:INFO: Epoch 3 out of 15
+2018-06-07 16:26:27,432:INFO: acc 87.58 - f1 38.05
+2018-06-07 16:26:28,821:INFO: - new best score!
+2018-06-07 16:26:28,821:INFO: Epoch 4 out of 15
+2018-06-07 16:26:41,627:INFO: acc 90.01 - f1 37.63
+2018-06-07 16:26:41,627:INFO: Epoch 5 out of 15
+2018-06-07 16:26:55,307:INFO: acc 93.35 - f1 42.11
+2018-06-07 16:26:56,544:INFO: - new best score!
+2018-06-07 16:26:56,544:INFO: Epoch 6 out of 15
+2018-06-07 16:27:10,276:INFO: acc 93.64 - f1 49.30
+2018-06-07 16:27:11,737:INFO: - new best score!
+2018-06-07 16:27:11,737:INFO: Epoch 7 out of 15
+2018-06-07 16:27:25,390:INFO: acc 94.89 - f1 56.26
+2018-06-07 16:27:26,742:INFO: - new best score!
+2018-06-07 16:27:26,742:INFO: Epoch 8 out of 15
+2018-06-07 16:27:40,775:INFO: acc 95.56 - f1 52.13
+2018-06-07 16:27:40,775:INFO: Epoch 9 out of 15
+2018-06-07 16:27:55,304:INFO: acc 95.86 - f1 48.71
+2018-06-07 16:27:55,304:INFO: Epoch 10 out of 15
+2018-06-07 16:28:09,316:INFO: acc 96.33 - f1 52.34
+2018-06-07 16:28:09,316:INFO: - early stopping 3 epochs without improvement
+2018-06-07 16:28:11,682:INFO: WARNING: randomly initializing word vectors
+2018-06-07 16:28:18,568:INFO: Initializing tf session
+2018-06-07 16:28:19,463:INFO: Reloading the latest trained model...
+2018-06-07 16:28:19,463:INFO: Restoring parameters from results/test/model.weights/
+2018-06-07 16:28:19,630:INFO: Testing model over test set
+2018-06-07 16:28:22,978:INFO: acc 94.89 - f1 56.26
+2018-06-07 16:28:22,978:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-06-07 17:02:55,359:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 17:09:00,328:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 17:16:22,553:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 17:16:22,577:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 17:16:22,578:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 17:16:22,578:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 17:16:22,578:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 17:16:22,578:INFO: setting ignored attribute cum_table to None
+2018-06-07 17:16:22,579:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 17:17:59,538:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 17:17:59,559:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 17:17:59,559:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 17:17:59,560:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 17:17:59,560:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 17:17:59,560:INFO: setting ignored attribute cum_table to None
+2018-06-07 17:17:59,560:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 17:17:59,596:INFO: WARNING: randomly initializing word vectors
+2018-06-07 17:18:08,549:INFO: Initializing tf session
+2018-06-07 17:18:11,924:INFO: Epoch 1 out of 15
+2018-06-07 17:18:23,531:INFO: acc 79.63 - f1 0.00
+2018-06-07 17:18:25,299:INFO: - new best score!
+2018-06-07 17:18:25,299:INFO: Epoch 2 out of 15
+2018-06-07 17:18:37,790:INFO: acc 76.13 - f1 0.00
+2018-06-07 17:18:39,254:INFO: - new best score!
+2018-06-07 17:18:39,254:INFO: Epoch 3 out of 15
+2018-06-07 17:18:49,885:INFO: acc 77.62 - f1 47.37
+2018-06-07 17:18:51,240:INFO: - new best score!
+2018-06-07 17:18:51,240:INFO: Epoch 4 out of 15
+2018-06-07 17:19:02,405:INFO: acc 84.66 - f1 40.67
+2018-06-07 17:19:02,405:INFO: Epoch 5 out of 15
+2018-06-07 17:19:13,030:INFO: acc 88.04 - f1 41.88
+2018-06-07 17:19:13,035:INFO: Epoch 6 out of 15
+2018-06-07 17:19:23,712:INFO: acc 89.10 - f1 33.65
+2018-06-07 17:19:23,717:INFO: - early stopping 3 epochs without improvement
+2018-06-07 17:19:26,802:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 17:19:26,817:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 17:19:26,817:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 17:19:26,817:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 17:19:26,817:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 17:19:26,818:INFO: setting ignored attribute cum_table to None
+2018-06-07 17:19:26,818:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 17:19:26,839:INFO: WARNING: randomly initializing word vectors
+2018-06-07 17:19:35,560:INFO: Initializing tf session
+2018-06-07 17:19:36,407:INFO: Reloading the latest trained model...
+2018-06-07 17:19:36,407:INFO: Restoring parameters from results/test/model.weights/
+2018-06-07 17:19:36,565:INFO: Testing model over test set
+2018-06-07 17:19:39,450:INFO: acc 77.62 - f1 47.37
+2018-06-07 17:19:39,455:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-06-07 17:22:16,770:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 17:22:16,794:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 17:22:16,794:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 17:22:16,794:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 17:22:16,794:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 17:22:16,794:INFO: setting ignored attribute cum_table to None
+2018-06-07 17:22:16,795:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 17:22:16,816:INFO: WARNING: randomly initializing word vectors
+2018-06-07 17:22:25,277:INFO: Initializing tf session
+2018-06-07 17:22:28,414:INFO: Epoch 1 out of 15
+2018-06-07 17:22:43,341:INFO: acc 76.99 - f1 0.84
+2018-06-07 17:22:44,947:INFO: - new best score!
+2018-06-07 17:22:44,947:INFO: Epoch 2 out of 15
+2018-06-07 17:22:57,837:INFO: acc 85.57 - f1 1.05
+2018-06-07 17:22:59,264:INFO: - new best score!
+2018-06-07 17:22:59,265:INFO: Epoch 3 out of 15
+2018-06-07 17:23:12,363:INFO: acc 88.93 - f1 27.04
+2018-06-07 17:23:13,668:INFO: - new best score!
+2018-06-07 17:23:13,668:INFO: Epoch 4 out of 15
+2018-06-07 17:23:26,643:INFO: acc 92.09 - f1 30.34
+2018-06-07 17:23:27,825:INFO: - new best score!
+2018-06-07 17:23:27,826:INFO: Epoch 5 out of 15
+2018-06-07 17:23:40,992:INFO: acc 93.71 - f1 33.46
+2018-06-07 17:23:42,252:INFO: - new best score!
+2018-06-07 17:23:42,252:INFO: Epoch 6 out of 15
+2018-06-07 17:23:54,978:INFO: acc 94.50 - f1 42.32
+2018-06-07 17:23:56,373:INFO: - new best score!
+2018-06-07 17:23:56,374:INFO: Epoch 7 out of 15
+2018-06-07 17:24:09,735:INFO: acc 94.98 - f1 42.28
+2018-06-07 17:24:09,735:INFO: Epoch 8 out of 15
+2018-06-07 17:24:23,043:INFO: acc 90.96 - f1 41.91
+2018-06-07 17:24:23,043:INFO: Epoch 9 out of 15
+2018-06-07 17:24:36,081:INFO: acc 95.91 - f1 36.21
+2018-06-07 17:24:36,081:INFO: - early stopping 3 epochs without improvement
+2018-06-07 17:24:39,061:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 17:24:39,077:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 17:24:39,077:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 17:24:39,078:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 17:24:39,078:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 17:24:39,078:INFO: setting ignored attribute cum_table to None
+2018-06-07 17:24:39,078:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 17:24:39,101:INFO: WARNING: randomly initializing word vectors
+2018-06-07 17:24:47,188:INFO: Initializing tf session
+2018-06-07 17:24:48,038:INFO: Reloading the latest trained model...
+2018-06-07 17:24:48,038:INFO: Restoring parameters from results/test/model.weights/
+2018-06-07 17:24:48,179:INFO: Testing model over test set
+2018-06-07 17:24:51,517:INFO: acc 94.50 - f1 42.32
+2018-06-07 17:24:51,517:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-06-07 17:26:53,124:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 17:26:53,136:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 17:26:53,136:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 17:26:53,136:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 17:26:53,136:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 17:26:53,136:INFO: setting ignored attribute cum_table to None
+2018-06-07 17:26:53,136:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 17:27:27,586:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 17:27:27,598:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 17:27:27,599:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 17:27:27,599:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 17:27:27,599:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 17:27:27,599:INFO: setting ignored attribute cum_table to None
+2018-06-07 17:27:27,599:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 17:27:34,851:INFO: Initializing tf session
+2018-06-07 17:27:37,725:INFO: Epoch 1 out of 15
+2018-06-07 17:27:47,758:INFO: acc 82.25 - f1 7.92
+2018-06-07 17:27:48,991:INFO: - new best score!
+2018-06-07 17:27:48,991:INFO: Epoch 2 out of 15
+2018-06-07 17:27:58,536:INFO: acc 87.65 - f1 27.04
+2018-06-07 17:27:59,688:INFO: - new best score!
+2018-06-07 17:27:59,688:INFO: Epoch 3 out of 15
+2018-06-07 17:28:09,420:INFO: acc 92.53 - f1 29.48
+2018-06-07 17:28:10,608:INFO: - new best score!
+2018-06-07 17:28:10,609:INFO: Epoch 4 out of 15
+2018-06-07 17:28:20,296:INFO: acc 94.03 - f1 42.48
+2018-06-07 17:28:21,494:INFO: - new best score!
+2018-06-07 17:28:21,494:INFO: Epoch 5 out of 15
+2018-06-07 17:28:31,266:INFO: acc 95.37 - f1 51.28
+2018-06-07 17:28:32,540:INFO: - new best score!
+2018-06-07 17:28:32,540:INFO: Epoch 6 out of 15
+2018-06-07 17:28:42,271:INFO: acc 95.44 - f1 21.54
+2018-06-07 17:28:42,276:INFO: Epoch 7 out of 15
+2018-06-07 17:28:52,083:INFO: acc 95.46 - f1 49.78
+2018-06-07 17:28:52,083:INFO: Epoch 8 out of 15
+2018-06-07 17:29:02,192:INFO: acc 97.60 - f1 52.05
+2018-06-07 17:29:03,293:INFO: - new best score!
+2018-06-07 17:29:03,293:INFO: Epoch 9 out of 15
+2018-06-07 17:29:13,229:INFO: acc 97.67 - f1 46.64
+2018-06-07 17:29:13,234:INFO: Epoch 10 out of 15
+2018-06-07 17:29:22,805:INFO: acc 97.23 - f1 41.60
+2018-06-07 17:29:22,805:INFO: Epoch 11 out of 15
+2018-06-07 17:29:32,834:INFO: acc 97.86 - f1 49.03
+2018-06-07 17:29:32,834:INFO: - early stopping 3 epochs without improvement
+2018-06-07 17:29:35,731:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 17:29:35,748:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 17:29:35,748:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 17:29:35,749:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 17:29:35,749:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 17:29:35,749:INFO: setting ignored attribute cum_table to None
+2018-06-07 17:29:35,749:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 17:29:43,932:INFO: Initializing tf session
+2018-06-07 17:29:44,727:INFO: Reloading the latest trained model...
+2018-06-07 17:29:44,727:INFO: Restoring parameters from results/test/model.weights/
+2018-06-07 17:29:44,850:INFO: Testing model over test set
+2018-06-07 17:29:47,542:INFO: acc 97.60 - f1 52.05
+2018-06-07 17:29:47,542:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-06-07 17:30:30,859:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 17:30:30,873:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 17:30:30,873:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 17:30:30,873:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 17:30:30,873:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 17:30:30,873:INFO: setting ignored attribute cum_table to None
+2018-06-07 17:30:30,874:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 17:35:02,862:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 17:35:02,885:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 17:35:02,885:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 17:35:02,885:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 17:35:02,885:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 17:35:02,885:INFO: setting ignored attribute cum_table to None
+2018-06-07 17:35:02,886:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 17:35:11,867:INFO: Initializing tf session
+2018-06-07 17:35:14,909:INFO: Epoch 1 out of 15
+2018-06-07 17:35:26,322:INFO: acc 84.28 - f1 16.39
+2018-06-07 17:35:27,742:INFO: - new best score!
+2018-06-07 17:35:27,742:INFO: Epoch 2 out of 15
+2018-06-07 17:35:39,119:INFO: acc 82.61 - f1 33.85
+2018-06-07 17:35:40,244:INFO: - new best score!
+2018-06-07 17:35:40,244:INFO: Epoch 3 out of 15
+2018-06-07 17:35:50,524:INFO: acc 89.40 - f1 42.63
+2018-06-07 17:35:51,732:INFO: - new best score!
+2018-06-07 17:35:51,732:INFO: Epoch 4 out of 15
+2018-06-07 17:36:02,530:INFO: acc 91.32 - f1 36.74
+2018-06-07 17:36:02,530:INFO: Epoch 5 out of 15
+2018-06-07 17:36:13,172:INFO: acc 93.41 - f1 37.39
+2018-06-07 17:36:13,172:INFO: Epoch 6 out of 15
+2018-06-07 17:36:23,244:INFO: acc 96.09 - f1 50.00
+2018-06-07 17:36:24,429:INFO: - new best score!
+2018-06-07 17:36:24,430:INFO: Epoch 7 out of 15
+2018-06-07 17:36:35,303:INFO: acc 96.74 - f1 50.33
+2018-06-07 17:36:36,606:INFO: - new best score!
+2018-06-07 17:36:36,606:INFO: Epoch 8 out of 15
+2018-06-07 17:36:47,056:INFO: acc 96.58 - f1 47.74
+2018-06-07 17:36:47,057:INFO: Epoch 9 out of 15
+2018-06-07 17:39:15,217:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 17:39:15,242:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 17:39:15,242:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 17:39:15,242:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 17:39:15,242:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 17:39:15,243:INFO: setting ignored attribute cum_table to None
+2018-06-07 17:39:15,243:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 17:41:53,433:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 17:41:53,459:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 17:41:53,459:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 17:41:53,460:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 17:41:53,460:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 17:41:53,460:INFO: setting ignored attribute cum_table to None
+2018-06-07 17:41:53,461:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 17:42:22,332:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 17:42:22,346:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 17:42:22,347:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 17:42:22,347:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 17:42:22,347:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 17:42:22,347:INFO: setting ignored attribute cum_table to None
+2018-06-07 17:42:22,348:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 17:42:36,861:DEBUG: diff parser start
+2018-06-07 17:42:36,866:DEBUG: diff parser calculated
+2018-06-07 17:42:36,867:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-07 17:42:36,867:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-07 17:42:36,868:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-07 17:42:36,868:DEBUG: diff parser end
+2018-06-07 17:46:17,057:DEBUG: diff parser start
+2018-06-07 17:46:17,058:DEBUG: diff parser calculated
+2018-06-07 17:46:17,058:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-07 17:46:17,059:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-07 17:46:17,060:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-07 17:46:17,060:DEBUG: diff parser end
+2018-06-07 17:46:17,403:DEBUG: pickle loaded: /Users/han/.virtualenvs/neuralbot/lib/python3.6/site-packages/numpy/__init__.py
+2018-06-07 17:47:17,323:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 17:47:17,347:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 17:47:17,347:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 17:47:17,347:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 17:47:17,347:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 17:47:17,347:INFO: setting ignored attribute cum_table to None
+2018-06-07 17:47:17,347:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 17:47:25,719:INFO: Initializing tf session
+2018-06-07 17:47:28,785:INFO: Epoch 1 out of 15
+2018-06-07 17:47:39,321:INFO: acc 80.81 - f1 23.03
+2018-06-07 17:47:40,586:INFO: - new best score!
+2018-06-07 17:47:40,586:INFO: Epoch 2 out of 15
+2018-06-07 17:56:42,452:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 17:56:42,477:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 17:56:42,477:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 17:56:42,478:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 17:56:42,478:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 17:56:42,478:INFO: setting ignored attribute cum_table to None
+2018-06-07 17:56:42,478:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 17:56:51,240:INFO: Initializing tf session
+2018-06-07 17:56:54,577:INFO: Epoch 1 out of 15
+2018-06-07 17:59:05,301:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 17:59:05,324:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 17:59:05,324:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 17:59:05,324:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 17:59:05,324:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 17:59:05,324:INFO: setting ignored attribute cum_table to None
+2018-06-07 17:59:05,325:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 17:59:47,560:DEBUG: diff parser start
+2018-06-07 17:59:47,560:DEBUG: diff parser calculated
+2018-06-07 17:59:47,560:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-07 17:59:47,560:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-07 17:59:47,561:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-07 17:59:47,561:DEBUG: diff parser end
+2018-06-07 18:00:03,010:DEBUG: diff parser start
+2018-06-07 18:00:03,010:DEBUG: diff parser calculated
+2018-06-07 18:00:03,010:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-07 18:00:03,010:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-07 18:00:03,011:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-07 18:00:03,011:DEBUG: diff parser end
+2018-06-07 18:00:39,127:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 18:00:39,145:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 18:00:39,145:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 18:00:39,145:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 18:00:39,146:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 18:00:39,146:INFO: setting ignored attribute cum_table to None
+2018-06-07 18:00:39,146:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 18:01:18,655:DEBUG: diff parser start
+2018-06-07 18:01:18,661:DEBUG: diff parser calculated
+2018-06-07 18:01:18,661:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-07 18:01:18,661:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-07 18:01:18,662:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-07 18:01:18,662:DEBUG: diff parser end
+2018-06-07 18:02:02,787:DEBUG: diff parser start
+2018-06-07 18:02:02,787:DEBUG: diff parser calculated
+2018-06-07 18:02:02,787:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-07 18:02:02,788:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-07 18:02:02,788:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-07 18:02:02,789:DEBUG: diff parser end
+2018-06-07 18:02:16,800:DEBUG: diff parser start
+2018-06-07 18:02:16,801:DEBUG: diff parser calculated
+2018-06-07 18:02:16,801:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-07 18:02:16,801:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-07 18:02:16,802:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-07 18:02:16,802:DEBUG: diff parser end
+2018-06-07 18:02:21,318:DEBUG: diff parser start
+2018-06-07 18:02:21,318:DEBUG: diff parser calculated
+2018-06-07 18:02:21,318:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-07 18:02:21,318:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-07 18:02:21,319:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-07 18:02:21,319:DEBUG: diff parser end
+2018-06-07 18:02:30,834:DEBUG: diff parser start
+2018-06-07 18:02:30,835:DEBUG: diff parser calculated
+2018-06-07 18:02:30,835:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-07 18:02:30,835:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-07 18:02:30,835:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-07 18:02:30,836:DEBUG: diff parser end
+2018-06-07 18:02:30,856:DEBUG: pickle loaded: /Users/han/.virtualenvs/neuralbot/lib/python3.6/site-packages/numpy/__init__.py
+2018-06-07 18:07:46,833:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 18:07:46,858:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 18:07:46,858:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 18:07:46,859:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 18:07:46,859:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 18:07:46,859:INFO: setting ignored attribute cum_table to None
+2018-06-07 18:07:46,859:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 18:07:55,745:INFO: Initializing tf session
+2018-06-07 19:22:16,321:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 19:22:16,335:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 19:22:16,335:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 19:22:16,336:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 19:22:16,336:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 19:22:16,336:INFO: setting ignored attribute cum_table to None
+2018-06-07 19:22:16,336:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 19:22:25,494:INFO: Initializing tf session
+2018-06-07 19:22:28,589:INFO: Epoch 1 out of 15
+2018-06-07 19:30:09,613:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 19:30:09,626:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 19:30:09,626:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 19:30:09,627:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 19:30:09,627:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 19:30:09,627:INFO: setting ignored attribute cum_table to None
+2018-06-07 19:30:09,628:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 19:30:18,389:INFO: Initializing tf session
+2018-06-07 19:30:21,451:INFO: Epoch 1 out of 15
+2018-06-07 19:30:31,385:INFO: acc 81.05 - f1 2.79
+2018-06-07 19:30:32,834:INFO: - new best score!
+2018-06-07 19:30:32,835:INFO: Epoch 2 out of 15
+2018-06-07 19:30:42,865:INFO: acc 87.59 - f1 16.15
+2018-06-07 19:30:44,104:INFO: - new best score!
+2018-06-07 19:30:44,104:INFO: Epoch 3 out of 15
+2018-06-07 19:30:54,109:INFO: acc 88.35 - f1 22.30
+2018-06-07 19:30:55,289:INFO: - new best score!
+2018-06-07 19:30:55,289:INFO: Epoch 4 out of 15
+2018-06-07 19:31:05,553:INFO: acc 85.97 - f1 8.16
+2018-06-07 19:31:05,553:INFO: Epoch 5 out of 15
+2018-06-07 19:31:16,176:INFO: acc 91.37 - f1 26.13
+2018-06-07 19:31:17,438:INFO: - new best score!
+2018-06-07 19:31:17,438:INFO: Epoch 6 out of 15
+2018-06-07 19:31:27,969:INFO: acc 89.57 - f1 34.51
+2018-06-07 19:31:29,212:INFO: - new best score!
+2018-06-07 19:31:29,213:INFO: Epoch 7 out of 15
+2018-06-07 19:31:39,845:INFO: acc 93.96 - f1 30.85
+2018-06-07 19:31:39,845:INFO: Epoch 8 out of 15
+2018-06-07 19:31:50,739:INFO: acc 95.76 - f1 39.61
+2018-06-07 19:31:52,010:INFO: - new best score!
+2018-06-07 19:31:52,010:INFO: Epoch 9 out of 15
+2018-06-07 19:32:03,394:INFO: acc 93.84 - f1 41.56
+2018-06-07 19:32:04,752:INFO: - new best score!
+2018-06-07 19:32:04,753:INFO: Epoch 10 out of 15
+2018-06-07 19:32:16,499:INFO: acc 96.68 - f1 46.35
+2018-06-07 19:32:17,966:INFO: - new best score!
+2018-06-07 19:32:17,966:INFO: Epoch 11 out of 15
+2018-06-07 19:32:29,469:INFO: acc 95.99 - f1 44.40
+2018-06-07 19:32:29,469:INFO: Epoch 12 out of 15
+2018-06-07 19:32:40,351:INFO: acc 97.21 - f1 45.01
+2018-06-07 19:32:40,351:INFO: Epoch 13 out of 15
+2018-06-07 19:32:51,286:INFO: acc 95.86 - f1 50.43
+2018-06-07 19:32:52,509:INFO: - new best score!
+2018-06-07 19:32:52,509:INFO: Epoch 14 out of 15
+2018-06-07 19:33:03,313:INFO: acc 96.47 - f1 49.50
+2018-06-07 19:33:03,314:INFO: Epoch 15 out of 15
+2018-06-07 19:33:14,452:INFO: acc 97.01 - f1 45.08
+2018-06-07 19:33:17,489:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-07 19:33:17,496:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-07 19:33:17,496:INFO: setting ignored attribute vectors_norm to None
+2018-06-07 19:33:17,497:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-07 19:33:17,497:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-07 19:33:17,497:INFO: setting ignored attribute cum_table to None
+2018-06-07 19:33:17,497:INFO: loaded data/insurance_wordvec.wv
+2018-06-07 19:33:26,096:INFO: Initializing tf session
+2018-06-07 19:33:26,949:INFO: Reloading the latest trained model...
+2018-06-07 19:33:26,949:INFO: Restoring parameters from results/test/model.weights/
+2018-06-07 19:33:27,094:INFO: Testing model over test set
+2018-06-07 19:33:29,765:INFO: acc 95.86 - f1 50.43
+2018-06-07 19:33:29,765:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-06-07 19:45:57,047:INFO: exit() 
+2018-06-07 19:45:57,048:INFO: O-合同构成 
+2018-06-08 12:25:38,509:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 12:25:38,652:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 12:25:38,653:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 12:25:38,653:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 12:25:38,653:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 12:25:38,653:INFO: setting ignored attribute cum_table to None
+2018-06-08 12:25:38,654:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 12:25:48,318:INFO: Initializing tf session
+2018-06-08 12:25:51,499:INFO: Epoch 1 out of 15
+2018-06-08 12:26:01,652:INFO: acc 76.27 - f1 42.96
+2018-06-08 12:26:02,860:INFO: - new best score!
+2018-06-08 12:26:02,860:INFO: Epoch 2 out of 15
+2018-06-08 12:26:12,868:INFO: acc 88.18 - f1 42.23
+2018-06-08 12:26:12,868:INFO: Epoch 3 out of 15
+2018-06-08 12:26:23,015:INFO: acc 89.42 - f1 38.19
+2018-06-08 12:26:23,015:INFO: Epoch 4 out of 15
+2018-06-08 12:26:33,044:INFO: acc 89.35 - f1 34.78
+2018-06-08 12:26:33,044:INFO: - early stopping 3 epochs without improvement
+2018-06-08 12:26:35,789:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 12:26:35,903:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 12:26:35,903:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 12:26:35,904:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 12:26:35,904:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 12:26:35,904:INFO: setting ignored attribute cum_table to None
+2018-06-08 12:26:35,904:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 12:26:43,785:INFO: Initializing tf session
+2018-06-08 12:26:44,546:INFO: Reloading the latest trained model...
+2018-06-08 12:26:44,546:INFO: Restoring parameters from results/test/model.weights/
+2018-06-08 12:26:44,676:INFO: Testing model over test set
+2018-06-08 12:26:47,403:INFO: acc 76.27 - f1 42.96
+2018-06-08 12:26:47,403:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-06-08 12:28:57,489:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 12:28:57,613:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 12:28:57,613:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 12:28:57,614:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 12:28:57,614:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 12:28:57,614:INFO: setting ignored attribute cum_table to None
+2018-06-08 12:28:57,614:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 12:29:06,185:INFO: Initializing tf session
+2018-06-08 12:29:08,982:INFO: Epoch 1 out of 20
+2018-06-08 12:29:19,241:INFO: acc 76.77 - f1 36.84
+2018-06-08 12:29:20,471:INFO: - new best score!
+2018-06-08 12:29:20,471:INFO: Epoch 2 out of 20
+2018-06-08 12:29:30,059:INFO: acc 81.86 - f1 38.57
+2018-06-08 12:29:31,367:INFO: - new best score!
+2018-06-08 12:29:31,367:INFO: Epoch 3 out of 20
+2018-06-08 12:29:41,291:INFO: acc 88.11 - f1 41.43
+2018-06-08 12:29:42,414:INFO: - new best score!
+2018-06-08 12:29:42,414:INFO: Epoch 4 out of 20
+2018-06-08 12:29:52,194:INFO: acc 89.39 - f1 40.00
+2018-06-08 12:29:52,194:INFO: Epoch 5 out of 20
+2018-06-08 12:30:02,003:INFO: acc 90.11 - f1 48.86
+2018-06-08 12:30:03,197:INFO: - new best score!
+2018-06-08 12:30:03,197:INFO: Epoch 6 out of 20
+2018-06-08 12:30:12,586:INFO: acc 91.61 - f1 38.94
+2018-06-08 12:30:12,586:INFO: Epoch 7 out of 20
+2018-06-08 12:30:22,338:INFO: acc 87.71 - f1 44.29
+2018-06-08 12:30:22,338:INFO: Epoch 8 out of 20
+2018-06-08 12:30:32,213:INFO: acc 90.79 - f1 33.64
+2018-06-08 12:30:32,213:INFO: Epoch 9 out of 20
+2018-06-08 12:30:42,125:INFO: acc 94.65 - f1 45.50
+2018-06-08 12:30:42,125:INFO: Epoch 10 out of 20
+2018-06-08 12:30:51,917:INFO: acc 93.46 - f1 45.69
+2018-06-08 12:30:51,917:INFO: Epoch 11 out of 20
+2018-06-08 12:31:02,067:INFO: acc 94.02 - f1 50.49
+2018-06-08 12:31:03,344:INFO: - new best score!
+2018-06-08 12:31:03,344:INFO: Epoch 12 out of 20
+2018-06-08 12:31:13,199:INFO: acc 95.96 - f1 50.12
+2018-06-08 12:31:13,199:INFO: Epoch 13 out of 20
+2018-06-08 12:31:23,168:INFO: acc 95.50 - f1 51.29
+2018-06-08 12:31:24,420:INFO: - new best score!
+2018-06-08 12:31:24,420:INFO: Epoch 14 out of 20
+2018-06-08 12:31:34,356:INFO: acc 96.03 - f1 51.75
+2018-06-08 12:31:35,611:INFO: - new best score!
+2018-06-08 12:31:35,611:INFO: Epoch 15 out of 20
+2018-06-08 12:31:45,669:INFO: acc 95.99 - f1 51.40
+2018-06-08 12:31:45,669:INFO: Epoch 16 out of 20
+2018-06-08 12:31:55,477:INFO: acc 96.39 - f1 55.11
+2018-06-08 12:31:56,686:INFO: - new best score!
+2018-06-08 12:31:56,687:INFO: Epoch 17 out of 20
+2018-06-08 12:32:06,333:INFO: acc 96.68 - f1 55.85
+2018-06-08 12:32:07,452:INFO: - new best score!
+2018-06-08 12:32:07,452:INFO: Epoch 18 out of 20
+2018-06-08 12:32:17,275:INFO: acc 96.80 - f1 53.08
+2018-06-08 12:32:17,275:INFO: Epoch 19 out of 20
+2018-06-08 12:32:27,114:INFO: acc 96.84 - f1 57.42
+2018-06-08 12:32:28,369:INFO: - new best score!
+2018-06-08 12:32:28,369:INFO: Epoch 20 out of 20
+2018-06-08 12:32:38,241:INFO: acc 96.61 - f1 60.62
+2018-06-08 12:32:39,348:INFO: - new best score!
+2018-06-08 12:32:42,282:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 12:32:42,400:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 12:32:42,400:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 12:32:42,400:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 12:32:42,400:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 12:32:42,400:INFO: setting ignored attribute cum_table to None
+2018-06-08 12:32:42,400:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 12:32:50,305:INFO: Initializing tf session
+2018-06-08 12:32:50,996:INFO: Reloading the latest trained model...
+2018-06-08 12:32:50,997:INFO: Restoring parameters from results/test/model.weights/
+2018-06-08 12:32:51,127:INFO: Testing model over test set
+2018-06-08 12:32:53,764:INFO: acc 96.61 - f1 60.62
+2018-06-08 12:32:53,764:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-06-08 14:12:08,148:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 14:12:08,285:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 14:12:08,285:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 14:12:08,285:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 14:12:08,285:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 14:12:08,286:INFO: setting ignored attribute cum_table to None
+2018-06-08 14:12:08,286:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 14:12:17,899:INFO: Initializing tf session
+2018-06-08 14:12:20,294:INFO: Epoch 1 out of 20
+2018-06-08 14:12:30,921:INFO: acc 75.40 - f1 41.59
+2018-06-08 14:12:31,881:INFO: - new best score!
+2018-06-08 14:12:31,881:INFO: Epoch 2 out of 20
+2018-06-08 14:12:41,243:INFO: acc 85.56 - f1 35.91
+2018-06-08 14:12:41,243:INFO: Epoch 3 out of 20
+2018-06-08 14:12:50,479:INFO: acc 88.87 - f1 28.82
+2018-06-08 14:12:50,479:INFO: Epoch 4 out of 20
+2018-06-08 14:12:59,855:INFO: acc 90.49 - f1 43.56
+2018-06-08 14:13:00,768:INFO: - new best score!
+2018-06-08 14:13:00,769:INFO: Epoch 5 out of 20
+2018-06-08 14:13:10,141:INFO: acc 87.46 - f1 33.92
+2018-06-08 14:13:10,147:INFO: Epoch 6 out of 20
+2018-06-08 14:13:20,005:INFO: acc 90.58 - f1 31.77
+2018-06-08 14:13:20,010:INFO: Epoch 7 out of 20
+2018-06-08 14:13:29,500:INFO: acc 90.10 - f1 38.39
+2018-06-08 14:13:29,500:INFO: Epoch 8 out of 20
+2018-06-08 14:13:39,236:INFO: acc 94.49 - f1 41.72
+2018-06-08 14:13:39,236:INFO: Epoch 9 out of 20
+2018-06-08 14:13:48,948:INFO: acc 94.51 - f1 48.29
+2018-06-08 14:13:49,897:INFO: - new best score!
+2018-06-08 14:13:49,897:INFO: Epoch 10 out of 20
+2018-06-08 14:13:59,191:INFO: acc 94.59 - f1 41.50
+2018-06-08 14:13:59,191:INFO: Epoch 11 out of 20
+2018-06-08 14:14:08,766:INFO: acc 95.88 - f1 51.42
+2018-06-08 14:14:09,629:INFO: - new best score!
+2018-06-08 14:14:09,629:INFO: Epoch 12 out of 20
+2018-06-08 14:14:19,279:INFO: acc 96.16 - f1 51.64
+2018-06-08 14:14:20,140:INFO: - new best score!
+2018-06-08 14:14:20,140:INFO: Epoch 13 out of 20
+2018-06-08 14:14:29,785:INFO: acc 95.23 - f1 52.78
+2018-06-08 14:14:30,716:INFO: - new best score!
+2018-06-08 14:14:30,716:INFO: Epoch 14 out of 20
+2018-06-08 14:14:40,236:INFO: acc 95.82 - f1 49.53
+2018-06-08 14:14:40,236:INFO: Epoch 15 out of 20
+2018-06-08 14:14:49,879:INFO: acc 97.01 - f1 53.21
+2018-06-08 14:14:50,818:INFO: - new best score!
+2018-06-08 14:14:50,818:INFO: Epoch 16 out of 20
+2018-06-08 14:14:59,999:INFO: acc 95.87 - f1 50.35
+2018-06-08 14:14:59,999:INFO: Epoch 17 out of 20
+2018-06-08 14:15:09,245:INFO: acc 96.13 - f1 48.96
+2018-06-08 14:15:09,245:INFO: Epoch 18 out of 20
+2018-06-08 14:15:18,343:INFO: acc 96.41 - f1 51.64
+2018-06-08 14:15:18,343:INFO: Epoch 19 out of 20
+2018-06-08 14:15:28,579:INFO: acc 96.62 - f1 53.99
+2018-06-08 14:15:29,516:INFO: - new best score!
+2018-06-08 14:15:29,516:INFO: Epoch 20 out of 20
+2018-06-08 14:15:39,212:INFO: acc 96.81 - f1 54.67
+2018-06-08 14:15:40,183:INFO: - new best score!
+2018-06-08 14:15:43,248:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 14:15:43,373:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 14:15:43,373:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 14:15:43,373:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 14:15:43,373:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 14:15:43,373:INFO: setting ignored attribute cum_table to None
+2018-06-08 14:15:43,373:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 14:15:51,760:INFO: Initializing tf session
+2018-06-08 14:15:52,327:INFO: Reloading the latest trained model...
+2018-06-08 14:15:52,327:INFO: Restoring parameters from results/test/model.weights/
+2018-06-08 14:15:52,506:INFO: Testing model over test set
+2018-06-08 14:15:55,296:INFO: acc 96.81 - f1 54.67
+2018-06-08 14:15:55,297:INFO: 
+This is an interactive mode.
+To exit, enter 'exit'.
+You can enter a sentence like
+input> I love Paris
+2018-06-08 14:31:49,929:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 14:31:50,067:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 14:31:50,067:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 14:31:50,068:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 14:31:50,068:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 14:31:50,068:INFO: setting ignored attribute cum_table to None
+2018-06-08 14:31:50,068:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 14:31:58,557:INFO: Initializing tf session
+2018-06-08 14:32:00,882:INFO: Epoch 1 out of 20
+2018-06-08 14:32:10,662:INFO: acc 76.96 - f1 41.86
+2018-06-08 14:32:11,656:INFO: - new best score!
+2018-06-08 14:32:11,656:INFO: Epoch 2 out of 20
+2018-06-08 14:32:21,299:INFO: acc 87.01 - f1 33.26
+2018-06-08 14:32:21,299:INFO: Epoch 3 out of 20
+2018-06-08 14:32:31,397:INFO: acc 89.89 - f1 37.44
+2018-06-08 14:32:31,397:INFO: Epoch 4 out of 20
+2018-06-08 14:32:43,816:INFO: acc 88.06 - f1 31.21
+2018-06-08 14:32:43,816:INFO: Epoch 5 out of 20
+2018-06-08 14:32:55,137:INFO: acc 90.82 - f1 46.76
+2018-06-08 14:32:56,016:INFO: - new best score!
+2018-06-08 14:32:56,016:INFO: Epoch 6 out of 20
+2018-06-08 14:33:08,160:INFO: acc 91.77 - f1 39.01
+2018-06-08 14:33:08,160:INFO: Epoch 7 out of 20
+2018-06-08 14:33:19,696:INFO: acc 91.87 - f1 40.35
+2018-06-08 14:33:19,697:INFO: Epoch 8 out of 20
+2018-06-08 14:33:31,177:INFO: acc 91.61 - f1 38.31
+2018-06-08 14:33:31,177:INFO: Epoch 9 out of 20
+2018-06-08 14:33:42,560:INFO: acc 94.47 - f1 41.05
+2018-06-08 14:33:42,560:INFO: Epoch 10 out of 20
+2018-06-08 14:33:54,133:INFO: acc 95.52 - f1 45.79
+2018-06-08 14:33:54,139:INFO: Epoch 11 out of 20
+2018-06-08 14:34:05,116:INFO: acc 95.60 - f1 51.83
+2018-06-08 14:34:06,115:INFO: - new best score!
+2018-06-08 14:34:06,115:INFO: Epoch 12 out of 20
+2018-06-08 14:34:18,189:INFO: acc 96.10 - f1 56.54
+2018-06-08 14:34:19,047:INFO: - new best score!
+2018-06-08 14:34:19,047:INFO: Epoch 13 out of 20
+2018-06-08 14:34:30,822:INFO: acc 96.68 - f1 58.29
+2018-06-08 14:34:31,660:INFO: - new best score!
+2018-06-08 14:34:31,660:INFO: Epoch 14 out of 20
+2018-06-08 14:34:42,870:INFO: acc 96.78 - f1 57.41
+2018-06-08 14:34:42,870:INFO: Epoch 15 out of 20
+2018-06-08 14:34:53,461:INFO: acc 96.98 - f1 57.76
+2018-06-08 14:34:53,461:INFO: Epoch 16 out of 20
+2018-06-08 14:35:04,663:INFO: acc 96.97 - f1 58.16
+2018-06-08 14:35:04,669:INFO: Epoch 17 out of 20
+2018-06-08 14:35:16,857:INFO: acc 97.18 - f1 58.91
+2018-06-08 14:35:17,776:INFO: - new best score!
+2018-06-08 14:35:17,777:INFO: Epoch 18 out of 20
+2018-06-08 14:35:28,605:INFO: acc 97.27 - f1 58.91
+2018-06-08 14:35:29,561:INFO: - new best score!
+2018-06-08 14:35:29,561:INFO: Epoch 19 out of 20
+2018-06-08 14:35:40,623:INFO: acc 97.47 - f1 56.26
+2018-06-08 14:35:40,624:INFO: Epoch 20 out of 20
+2018-06-08 14:35:51,201:INFO: acc 97.82 - f1 56.53
+2018-06-08 14:35:53,871:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 14:35:53,995:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 14:35:53,995:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 14:35:53,996:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 14:35:53,996:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 14:35:53,996:INFO: setting ignored attribute cum_table to None
+2018-06-08 14:35:53,996:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 14:36:02,918:INFO: Initializing tf session
+2018-06-08 14:36:03,512:INFO: Reloading the latest trained model...
+2018-06-08 14:36:03,512:INFO: Restoring parameters from results/test/model.weights/
+2018-06-08 14:36:03,699:INFO: Testing model over test set
+2018-06-08 14:36:06,839:INFO: acc 97.27 - f1 58.91
+2018-06-08 14:37:54,630:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 14:37:54,755:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 14:37:54,755:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 14:37:54,755:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 14:37:54,755:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 14:37:54,756:INFO: setting ignored attribute cum_table to None
+2018-06-08 14:37:54,756:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 14:38:02,566:INFO: Initializing tf session
+2018-06-08 14:38:03,141:INFO: Reloading the latest trained model...
+2018-06-08 14:38:03,141:INFO: Restoring parameters from results/test/model.weights/
+2018-06-08 14:38:03,329:INFO: Testing model over test set
+2018-06-08 14:38:06,555:INFO: acc 97.27 - f1 58.91
+2018-06-08 19:42:53,579:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 19:42:53,711:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 19:42:53,711:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 19:42:53,711:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 19:42:53,712:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 19:42:53,712:INFO: setting ignored attribute cum_table to None
+2018-06-08 19:42:53,712:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 19:43:01,712:INFO: Initializing tf session
+2018-06-08 19:43:02,285:INFO: Reloading the latest trained model...
+2018-06-08 19:43:02,285:INFO: Restoring parameters from results/test/model.weights/
+2018-06-08 19:43:02,468:INFO: Testing model over test set
+2018-06-08 19:43:05,994:INFO: acc 97.27 - f1 58.91
+2018-06-08 19:48:16,950:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 19:48:17,080:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 19:48:17,080:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 19:48:17,080:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 19:48:17,080:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 19:48:17,080:INFO: setting ignored attribute cum_table to None
+2018-06-08 19:48:17,081:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 19:48:24,671:INFO: Initializing tf session
+2018-06-08 19:48:26,679:INFO: Epoch 1 out of 20
+2018-06-08 20:23:20,243:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 20:23:20,419:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 20:23:20,419:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 20:23:20,419:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 20:23:20,419:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 20:23:20,420:INFO: setting ignored attribute cum_table to None
+2018-06-08 20:23:20,420:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 20:23:28,693:INFO: Initializing tf session
+2018-06-08 20:23:29,308:INFO: Reloading the latest trained model...
+2018-06-08 20:23:29,308:INFO: Restoring parameters from results/test/model.weights/
+2018-06-08 20:24:41,167:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 20:24:41,275:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 20:24:41,275:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 20:24:41,276:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 20:24:41,276:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 20:24:41,276:INFO: setting ignored attribute cum_table to None
+2018-06-08 20:24:41,276:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 20:24:49,510:INFO: Initializing tf session
+2018-06-08 20:24:50,118:INFO: Reloading the latest trained model...
+2018-06-08 20:24:50,118:INFO: Restoring parameters from results/test/model.weights/
+2018-06-08 20:24:50,304:INFO: Testing model over test set
+2018-06-08 20:25:40,852:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 20:25:40,970:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 20:25:40,971:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 20:25:40,971:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 20:25:40,971:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 20:25:40,971:INFO: setting ignored attribute cum_table to None
+2018-06-08 20:25:40,971:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 20:25:48,329:INFO: Initializing tf session
+2018-06-08 20:25:48,868:INFO: Reloading the latest trained model...
+2018-06-08 20:25:48,868:INFO: Restoring parameters from results/test/model.weights/
+2018-06-08 20:25:49,049:INFO: Testing model over test set
+2018-06-08 20:28:02,028:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 20:28:02,166:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 20:28:02,166:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 20:28:02,167:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 20:28:02,167:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 20:28:02,167:INFO: setting ignored attribute cum_table to None
+2018-06-08 20:28:02,167:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 20:28:10,555:INFO: Initializing tf session
+2018-06-08 20:28:11,507:INFO: Reloading the latest trained model...
+2018-06-08 20:28:11,508:INFO: Restoring parameters from results/test/model.weights/
+2018-06-08 20:28:11,711:INFO: Testing model over test set
+2018-06-08 20:35:08,441:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 20:35:08,584:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 20:35:08,584:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 20:35:08,584:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 20:35:08,584:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 20:35:08,584:INFO: setting ignored attribute cum_table to None
+2018-06-08 20:35:08,584:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 20:35:18,529:INFO: Initializing tf session
+2018-06-08 20:35:19,242:INFO: Reloading the latest trained model...
+2018-06-08 20:35:19,242:INFO: Restoring parameters from results/test/model.weights/
+2018-06-08 20:35:19,443:INFO: Testing model over test set
+2018-06-08 20:36:05,583:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 20:36:05,716:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 20:36:05,716:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 20:36:05,716:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 20:36:05,717:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 20:36:05,717:INFO: setting ignored attribute cum_table to None
+2018-06-08 20:36:05,717:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 20:36:14,245:INFO: Initializing tf session
+2018-06-08 20:36:14,860:INFO: Reloading the latest trained model...
+2018-06-08 20:36:14,861:INFO: Restoring parameters from results/test/model.weights/
+2018-06-08 20:36:15,038:INFO: Testing model over test set
+2018-06-08 20:39:10,811:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 20:39:10,936:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 20:39:10,936:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 20:39:10,937:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 20:39:10,937:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 20:39:10,937:INFO: setting ignored attribute cum_table to None
+2018-06-08 20:39:10,937:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 20:39:19,647:INFO: Initializing tf session
+2018-06-08 20:39:20,231:INFO: Reloading the latest trained model...
+2018-06-08 20:39:20,231:INFO: Restoring parameters from results/test/model.weights/
+2018-06-08 20:39:20,415:INFO: Testing model over test set
+2018-06-08 22:52:36,277:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 22:52:36,447:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 22:52:36,447:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 22:52:36,447:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 22:52:36,447:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 22:52:36,447:INFO: setting ignored attribute cum_table to None
+2018-06-08 22:52:36,448:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 22:52:45,073:INFO: Initializing tf session
+2018-06-08 22:52:45,669:INFO: Reloading the latest trained model...
+2018-06-08 22:52:45,669:INFO: Restoring parameters from results/test/model.weights/
+2018-06-08 22:52:45,855:INFO: Testing model over test set
+2018-06-08 22:52:48,423:INFO: acc 47.15 - f1 48.33
+2018-06-08 22:54:15,457:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-08 22:54:15,582:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-08 22:54:15,582:INFO: setting ignored attribute vectors_norm to None
+2018-06-08 22:54:15,582:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-08 22:54:15,582:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-08 22:54:15,583:INFO: setting ignored attribute cum_table to None
+2018-06-08 22:54:15,583:INFO: loaded data/insurance_wordvec.wv
+2018-06-08 22:54:23,302:INFO: Initializing tf session
+2018-06-08 22:54:23,880:INFO: Reloading the latest trained model...
+2018-06-08 22:54:23,880:INFO: Restoring parameters from results/test/model.weights/
+2018-06-08 22:54:24,070:INFO: Testing model over test set
+2018-06-08 22:54:26,784:INFO: acc 47.15 - f1 48.33
+2018-06-11 10:28:35,216:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-11 10:28:35,363:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-11 10:28:35,363:INFO: setting ignored attribute vectors_norm to None
+2018-06-11 10:28:35,364:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-11 10:28:35,364:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-11 10:28:35,364:INFO: setting ignored attribute cum_table to None
+2018-06-11 10:28:35,364:INFO: loaded data/insurance_wordvec.wv
+2018-06-11 10:28:48,913:INFO: Initializing tf session
+2018-06-11 10:28:51,490:INFO: Epoch 1 out of 20
+2018-06-11 10:29:05,816:INFO: acc 76.42 - f1 40.55
+2018-06-11 10:29:06,905:INFO: - new best score!
+2018-06-11 10:29:06,905:INFO: Epoch 2 out of 20
+2018-06-11 10:29:20,337:INFO: acc 86.16 - f1 39.17
+2018-06-11 10:29:20,337:INFO: Epoch 3 out of 20
+2018-06-11 10:29:32,822:INFO: acc 89.40 - f1 35.35
+2018-06-11 10:29:32,822:INFO: Epoch 4 out of 20
+2018-06-11 10:29:45,123:INFO: acc 88.83 - f1 34.19
+2018-06-11 10:29:45,123:INFO: Epoch 5 out of 20
+2018-06-11 10:29:57,342:INFO: acc 87.78 - f1 39.45
+2018-06-11 10:29:57,348:INFO: Epoch 6 out of 20
+2018-06-11 10:30:08,989:INFO: acc 92.86 - f1 41.54
+2018-06-11 10:30:09,996:INFO: - new best score!
+2018-06-11 10:30:09,996:INFO: Epoch 7 out of 20
+2018-06-11 10:30:22,873:INFO: acc 93.18 - f1 48.12
+2018-06-11 10:30:23,948:INFO: - new best score!
+2018-06-11 10:30:23,948:INFO: Epoch 8 out of 20
+2018-06-11 10:30:36,668:INFO: acc 94.82 - f1 47.69
+2018-06-11 10:30:36,668:INFO: Epoch 9 out of 20
+2018-06-11 10:30:50,117:INFO: acc 95.50 - f1 47.82
+2018-06-11 10:30:50,123:INFO: Epoch 10 out of 20
+2018-06-11 10:31:02,872:INFO: acc 94.84 - f1 45.86
+2018-06-11 10:31:02,872:INFO: Epoch 11 out of 20
+2018-06-11 10:31:15,966:INFO: acc 96.43 - f1 55.19
+2018-06-11 10:31:16,920:INFO: - new best score!
+2018-06-11 10:31:16,920:INFO: Epoch 12 out of 20
+2018-06-11 10:31:29,351:INFO: acc 96.01 - f1 51.72
+2018-06-11 10:31:29,351:INFO: Epoch 13 out of 20
+2018-06-11 10:31:40,446:INFO: acc 96.54 - f1 55.35
+2018-06-11 10:31:41,312:INFO: - new best score!
+2018-06-11 10:31:41,312:INFO: Epoch 14 out of 20
+2018-06-11 10:31:53,152:INFO: acc 96.69 - f1 56.21
+2018-06-11 10:31:54,238:INFO: - new best score!
+2018-06-11 10:31:54,238:INFO: Epoch 15 out of 20
+2018-06-11 10:32:06,449:INFO: acc 97.36 - f1 56.54
+2018-06-11 10:32:07,526:INFO: - new best score!
+2018-06-11 10:32:07,527:INFO: Epoch 16 out of 20
+2018-06-11 10:32:20,399:INFO: acc 97.33 - f1 52.58
+2018-06-11 10:32:20,399:INFO: Epoch 17 out of 20
+2018-06-11 10:32:32,871:INFO: acc 96.97 - f1 51.42
+2018-06-11 10:32:32,871:INFO: Epoch 18 out of 20
+2018-06-11 10:32:45,712:INFO: acc 97.41 - f1 56.74
+2018-06-11 10:32:46,643:INFO: - new best score!
+2018-06-11 10:32:46,643:INFO: Epoch 19 out of 20
+2018-06-11 10:32:59,291:INFO: acc 97.82 - f1 58.77
+2018-06-11 10:33:00,314:INFO: - new best score!
+2018-06-11 10:33:00,314:INFO: Epoch 20 out of 20
+2018-06-11 10:33:13,721:INFO: acc 97.11 - f1 52.93
+2018-06-11 10:33:17,005:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-11 10:33:17,181:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-11 10:33:17,181:INFO: setting ignored attribute vectors_norm to None
+2018-06-11 10:33:17,181:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-11 10:33:17,182:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-11 10:33:17,182:INFO: setting ignored attribute cum_table to None
+2018-06-11 10:33:17,182:INFO: loaded data/insurance_wordvec.wv
+2018-06-11 10:33:27,572:INFO: Initializing tf session
+2018-06-11 10:33:28,241:INFO: Reloading the latest trained model...
+2018-06-11 10:33:28,242:INFO: Restoring parameters from results/test/model.weights/
+2018-06-11 10:33:28,427:INFO: Testing model over test set
+2018-06-11 10:33:32,139:INFO: acc 97.82 - f1 58.77
+2018-06-11 15:36:31,150:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-11 15:36:31,287:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-11 15:36:31,287:INFO: setting ignored attribute vectors_norm to None
+2018-06-11 15:36:31,288:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-11 15:36:31,288:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-11 15:36:31,288:INFO: setting ignored attribute cum_table to None
+2018-06-11 15:36:31,288:INFO: loaded data/insurance_wordvec.wv
+2018-06-11 15:36:41,145:INFO: Initializing tf session
+2018-06-11 15:36:41,862:INFO: Reloading the latest trained model...
+2018-06-11 15:36:41,862:INFO: Restoring parameters from results/test/model.weights/
+2018-06-11 15:36:42,045:INFO: Testing model over test set
+2018-06-11 15:36:44,785:INFO: acc 97.82 - f1 58.77
+2018-06-11 15:53:27,914:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-11 15:53:28,042:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-11 15:53:28,042:INFO: setting ignored attribute vectors_norm to None
+2018-06-11 15:53:28,043:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-11 15:53:28,043:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-11 15:53:28,043:INFO: setting ignored attribute cum_table to None
+2018-06-11 15:53:28,043:INFO: loaded data/insurance_wordvec.wv
+2018-06-11 15:53:36,403:INFO: Initializing tf session
+2018-06-11 15:53:36,977:INFO: Reloading the latest trained model...
+2018-06-11 15:53:36,977:INFO: Restoring parameters from results/test/model.weights/
+2018-06-11 15:53:37,163:INFO: Testing model over test set
+2018-06-11 15:53:40,655:INFO: acc 97.82 - f1 58.77
+2018-06-11 17:20:46,488:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-11 17:20:46,696:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-11 17:20:46,696:INFO: setting ignored attribute vectors_norm to None
+2018-06-11 17:20:46,696:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-11 17:20:46,697:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-11 17:20:46,697:INFO: setting ignored attribute cum_table to None
+2018-06-11 17:20:46,697:INFO: loaded data/insurance_wordvec.wv
+2018-06-11 17:21:03,662:INFO: Initializing tf session
+2018-06-11 17:21:04,914:INFO: Reloading the latest trained model...
+2018-06-11 17:21:04,914:INFO: Restoring parameters from results/test/model.weights/
+2018-06-11 17:21:05,181:INFO: Testing model over test set
+2018-06-11 17:21:05,424:INFO: acc 98.71 - f1 57.14
+2018-06-11 17:39:23,848:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-11 17:39:23,981:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-11 17:39:23,982:INFO: setting ignored attribute vectors_norm to None
+2018-06-11 17:39:23,982:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-11 17:39:23,982:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-11 17:39:23,982:INFO: setting ignored attribute cum_table to None
+2018-06-11 17:39:23,982:INFO: loaded data/insurance_wordvec.wv
+2018-06-11 17:39:33,005:INFO: Initializing tf session
+2018-06-11 17:39:33,585:INFO: Reloading the latest trained model...
+2018-06-11 17:39:33,585:INFO: Restoring parameters from results/test/model.weights/
+2018-06-11 17:39:33,797:INFO: Testing model over test set
+2018-06-11 17:39:33,964:INFO: acc 98.71 - f1 57.14
+2018-06-11 17:42:14,145:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-11 17:42:14,264:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-11 17:42:14,264:INFO: setting ignored attribute vectors_norm to None
+2018-06-11 17:42:14,264:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-11 17:42:14,264:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-11 17:42:14,264:INFO: setting ignored attribute cum_table to None
+2018-06-11 17:42:14,264:INFO: loaded data/insurance_wordvec.wv
+2018-06-11 17:42:21,975:INFO: Initializing tf session
+2018-06-11 17:42:22,555:INFO: Reloading the latest trained model...
+2018-06-11 17:42:22,555:INFO: Restoring parameters from results/test/model.weights/
+2018-06-11 17:42:22,811:INFO: Testing model over test set
+2018-06-11 17:42:22,963:INFO: 3
+2018-06-11 17:42:22,963:INFO: acc 98.71 - f1 57.14
+2018-06-11 17:43:08,502:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-11 17:43:08,627:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-11 17:43:08,627:INFO: setting ignored attribute vectors_norm to None
+2018-06-11 17:43:08,628:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-11 17:43:08,628:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-11 17:43:08,628:INFO: setting ignored attribute cum_table to None
+2018-06-11 17:43:08,628:INFO: loaded data/insurance_wordvec.wv
+2018-06-11 17:43:16,384:INFO: Initializing tf session
+2018-06-11 17:43:16,944:INFO: Reloading the latest trained model...
+2018-06-11 17:43:16,944:INFO: Restoring parameters from results/test/model.weights/
+2018-06-11 17:43:17,122:INFO: Testing model over test set
+2018-06-11 17:49:06,715:DEBUG: diff parser start
+2018-06-11 17:49:06,715:DEBUG: diff parser calculated
+2018-06-11 17:49:06,715:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-11 17:49:06,715:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-11 17:49:06,715:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-11 17:49:06,716:DEBUG: diff parser end
+2018-06-11 17:49:11,853:DEBUG: diff parser start
+2018-06-11 17:49:11,853:DEBUG: diff parser calculated
+2018-06-11 17:49:11,853:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-11 17:49:11,853:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-11 17:49:11,854:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-11 17:49:11,854:DEBUG: diff parser end
+2018-06-11 18:35:41,880:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-11 18:35:42,028:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-11 18:35:42,029:INFO: setting ignored attribute vectors_norm to None
+2018-06-11 18:35:42,029:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-11 18:35:42,029:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-11 18:35:42,029:INFO: setting ignored attribute cum_table to None
+2018-06-11 18:35:42,030:INFO: loaded data/insurance_wordvec.wv
+2018-06-11 18:35:52,557:INFO: Initializing tf session
+2018-06-11 18:35:53,275:INFO: Reloading the latest trained model...
+2018-06-11 18:35:53,275:INFO: Restoring parameters from results/test/model.weights/
+2018-06-11 18:35:53,496:INFO: Testing model over test set
+2018-06-11 18:36:20,294:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-11 18:36:20,449:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-11 18:36:20,449:INFO: setting ignored attribute vectors_norm to None
+2018-06-11 18:36:20,449:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-11 18:36:20,450:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-11 18:36:20,450:INFO: setting ignored attribute cum_table to None
+2018-06-11 18:36:20,450:INFO: loaded data/insurance_wordvec.wv
+2018-06-11 18:36:32,133:INFO: Initializing tf session
+2018-06-11 18:36:32,845:INFO: Reloading the latest trained model...
+2018-06-11 18:36:32,845:INFO: Restoring parameters from results/test/model.weights/
+2018-06-11 18:36:33,043:INFO: Testing model over test set
+2018-06-11 18:36:33,247:INFO: 3
+2018-06-11 18:36:33,247:INFO: acc 98.71 - f1 57.14
+2018-06-11 18:39:26,947:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-11 18:39:27,067:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-11 18:39:27,068:INFO: setting ignored attribute vectors_norm to None
+2018-06-11 18:39:27,069:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-11 18:39:27,069:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-11 18:39:27,069:INFO: setting ignored attribute cum_table to None
+2018-06-11 18:39:27,070:INFO: loaded data/insurance_wordvec.wv
+2018-06-11 18:39:34,851:INFO: Initializing tf session
+2018-06-11 18:39:35,433:INFO: Reloading the latest trained model...
+2018-06-11 18:39:35,433:INFO: Restoring parameters from results/test/model.weights/
+2018-06-11 18:39:35,613:INFO: Testing model over test set
+2018-06-11 18:40:02,848:DEBUG: diff parser start
+2018-06-11 18:40:02,848:DEBUG: diff parser calculated
+2018-06-11 18:40:02,848:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-11 18:40:02,848:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-11 18:40:02,849:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-11 18:40:02,849:DEBUG: diff parser end
+2018-06-11 18:40:02,900:DEBUG: pickle loaded: /Users/han/workspace/work/neural-bot/neural_bot/sequence_tagging/model/base_model.py
+2018-06-11 18:40:02,985:DEBUG: pickle loaded: /Users/han/.virtualenvs/neuralbot/lib/python3.6/site-packages/ipdb/__init__.py
+2018-06-11 18:40:02,990:DEBUG: pickle loaded: /Users/han/.virtualenvs/neuralbot/lib/python3.6/site-packages/numpy/__init__.py
+2018-06-11 18:40:03,353:DEBUG: diff parser start
+2018-06-11 18:40:03,353:DEBUG: diff parser calculated
+2018-06-11 18:40:03,354:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-11 18:40:03,354:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-11 18:40:03,354:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-11 18:40:03,354:DEBUG: diff parser end
+2018-06-11 18:40:11,411:DEBUG: diff parser start
+2018-06-11 18:40:11,411:DEBUG: diff parser calculated
+2018-06-11 18:40:11,411:DEBUG: diff: line_lengths old: 1, new: 1
+2018-06-11 18:40:11,411:DEBUG: diff replace old[1:1] new[1:1]
+2018-06-11 18:40:11,412:DEBUG: parse_part from 1 to 1 (to 0 in part parser)
+2018-06-11 18:40:11,412:DEBUG: diff parser end
+2018-06-11 18:45:36,667:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-11 18:45:36,789:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-11 18:45:36,789:INFO: setting ignored attribute vectors_norm to None
+2018-06-11 18:45:36,790:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-11 18:45:36,790:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-11 18:45:36,790:INFO: setting ignored attribute cum_table to None
+2018-06-11 18:45:36,790:INFO: loaded data/insurance_wordvec.wv
+2018-06-11 18:45:44,777:INFO: Initializing tf session
+2018-06-11 18:45:45,357:INFO: Reloading the latest trained model...
+2018-06-11 18:45:45,357:INFO: Restoring parameters from results/test/model.weights/
+2018-06-11 18:45:45,531:INFO: Testing model over test set
+2018-06-11 18:45:45,685:INFO: 3
+2018-06-11 18:45:45,686:INFO: acc 98.71 - f1 57.14
+2018-06-11 18:48:34,593:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-11 18:48:34,713:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-11 18:48:34,713:INFO: setting ignored attribute vectors_norm to None
+2018-06-11 18:48:34,714:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-11 18:48:34,714:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-11 18:48:34,714:INFO: setting ignored attribute cum_table to None
+2018-06-11 18:48:34,714:INFO: loaded data/insurance_wordvec.wv
+2018-06-11 18:48:42,696:INFO: Initializing tf session
+2018-06-11 18:48:43,269:INFO: Reloading the latest trained model...
+2018-06-11 18:48:43,269:INFO: Restoring parameters from results/test/model.weights/
+2018-06-11 18:48:43,448:INFO: Testing model over test set
+2018-06-11 18:48:43,604:INFO: 3
+2018-06-11 18:48:43,604:INFO: acc 98.71 - f1 0.00
+2018-06-11 18:50:37,251:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-11 18:50:37,373:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-11 18:50:37,373:INFO: setting ignored attribute vectors_norm to None
+2018-06-11 18:50:37,373:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-11 18:50:37,374:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-11 18:50:37,374:INFO: setting ignored attribute cum_table to None
+2018-06-11 18:50:37,374:INFO: loaded data/insurance_wordvec.wv
+2018-06-11 18:50:45,127:INFO: Initializing tf session
+2018-06-11 18:50:47,350:INFO: Epoch 1 out of 20
+2018-06-11 18:50:56,748:INFO: 183
+2018-06-11 18:50:56,748:INFO: acc 76.35 - f1 0.00
+2018-06-11 18:50:57,724:INFO: - new best score!
+2018-06-11 18:50:57,724:INFO: Epoch 2 out of 20
+2018-06-11 18:51:07,153:INFO: 183
+2018-06-11 18:51:07,153:INFO: acc 85.83 - f1 0.00
+2018-06-11 18:51:08,028:INFO: - new best score!
+2018-06-11 18:51:08,028:INFO: Epoch 3 out of 20
+2018-06-11 18:51:17,799:INFO: 183
+2018-06-11 18:51:17,800:INFO: acc 89.41 - f1 0.00
+2018-06-11 18:51:18,809:INFO: - new best score!
+2018-06-11 18:51:18,809:INFO: Epoch 4 out of 20
+2018-06-11 18:51:28,519:INFO: 183
+2018-06-11 18:51:28,519:INFO: acc 88.48 - f1 0.00
+2018-06-11 18:51:29,391:INFO: - new best score!
+2018-06-11 18:51:29,391:INFO: Epoch 5 out of 20
+2018-06-11 18:51:39,475:INFO: 183
+2018-06-11 18:51:39,476:INFO: acc 90.90 - f1 0.00
+2018-06-11 18:51:40,384:INFO: - new best score!
+2018-06-11 18:51:40,384:INFO: Epoch 6 out of 20
+2018-06-11 18:51:50,771:INFO: 183
+2018-06-11 18:51:50,771:INFO: acc 91.12 - f1 0.00
+2018-06-11 18:51:51,745:INFO: - new best score!
+2018-06-11 18:51:51,745:INFO: Epoch 7 out of 20
+2018-06-11 18:52:02,146:INFO: 183
+2018-06-11 18:52:02,147:INFO: acc 89.96 - f1 0.00
+2018-06-11 18:52:03,142:INFO: - new best score!
+2018-06-11 18:52:03,142:INFO: Epoch 8 out of 20
+2018-06-11 18:52:13,447:INFO: 183
+2018-06-11 18:52:13,448:INFO: acc 88.04 - f1 0.00
+2018-06-11 18:52:14,332:INFO: - new best score!
+2018-06-11 18:52:14,332:INFO: Epoch 9 out of 20
+2018-06-11 18:52:24,357:INFO: 183
+2018-06-11 18:52:24,358:INFO: acc 92.06 - f1 0.00
+2018-06-11 18:52:25,330:INFO: - new best score!
+2018-06-11 18:52:25,330:INFO: Epoch 10 out of 20
+2018-06-11 18:52:35,149:INFO: 183
+2018-06-11 18:52:35,149:INFO: acc 92.79 - f1 0.00
+2018-06-11 18:52:36,121:INFO: - new best score!
+2018-06-11 18:52:36,121:INFO: Epoch 11 out of 20
+2018-06-11 18:52:45,806:INFO: 183
+2018-06-11 18:52:45,806:INFO: acc 94.24 - f1 0.00
+2018-06-11 18:52:46,706:INFO: - new best score!
+2018-06-11 18:52:46,707:INFO: Epoch 12 out of 20
+2018-06-11 18:52:56,556:INFO: 183
+2018-06-11 18:52:56,556:INFO: acc 95.83 - f1 0.00
+2018-06-11 18:52:57,472:INFO: - new best score!
+2018-06-11 18:52:57,472:INFO: Epoch 13 out of 20
+2018-06-11 18:53:07,229:INFO: 183
+2018-06-11 18:53:07,229:INFO: acc 95.64 - f1 0.00
+2018-06-11 18:53:08,194:INFO: - new best score!
+2018-06-11 18:53:08,194:INFO: Epoch 14 out of 20
+2018-06-11 18:53:17,923:INFO: 183
+2018-06-11 18:53:17,924:INFO: acc 96.22 - f1 0.00
+2018-06-11 18:53:18,912:INFO: - new best score!
+2018-06-11 18:53:18,912:INFO: Epoch 15 out of 20
+2018-06-11 18:53:28,845:INFO: 183
+2018-06-11 18:53:28,845:INFO: acc 96.00 - f1 0.00
+2018-06-11 18:53:29,747:INFO: - new best score!
+2018-06-11 18:53:29,747:INFO: Epoch 16 out of 20
+2018-06-11 18:53:39,668:INFO: 183
+2018-06-11 18:53:39,668:INFO: acc 96.09 - f1 2.16
+2018-06-11 18:53:40,633:INFO: - new best score!
+2018-06-11 18:53:40,633:INFO: Epoch 17 out of 20
+2018-06-11 18:53:50,599:INFO: 183
+2018-06-11 18:53:50,599:INFO: acc 96.72 - f1 2.16
+2018-06-11 18:53:51,487:INFO: - new best score!
+2018-06-11 18:53:51,487:INFO: Epoch 18 out of 20
+2018-06-11 18:54:01,489:INFO: 183
+2018-06-11 18:54:01,489:INFO: acc 97.17 - f1 0.00
+2018-06-11 18:54:01,489:INFO: Epoch 19 out of 20
+2018-06-11 18:54:11,355:INFO: 183
+2018-06-11 18:54:11,356:INFO: acc 97.27 - f1 0.00
+2018-06-11 18:54:11,356:INFO: Epoch 20 out of 20
+2018-06-11 18:54:21,334:INFO: 183
+2018-06-11 18:54:21,334:INFO: acc 97.34 - f1 0.00
+2018-06-11 18:54:23,496:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-11 18:54:23,618:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-11 18:54:23,618:INFO: setting ignored attribute vectors_norm to None
+2018-06-11 18:54:23,618:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-11 18:54:23,619:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-11 18:54:23,619:INFO: setting ignored attribute cum_table to None
+2018-06-11 18:54:23,619:INFO: loaded data/insurance_wordvec.wv
+2018-06-11 18:54:31,600:INFO: Initializing tf session
+2018-06-11 18:54:32,183:INFO: Reloading the latest trained model...
+2018-06-11 18:54:32,183:INFO: Restoring parameters from results/test/model.weights/
+2018-06-11 18:54:32,358:INFO: Testing model over test set
+2018-06-11 18:54:35,126:INFO: 183
+2018-06-11 18:54:35,126:INFO: acc 96.72 - f1 2.16
+2018-06-11 18:55:43,821:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-11 18:55:43,944:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-11 18:55:43,944:INFO: setting ignored attribute vectors_norm to None
+2018-06-11 18:55:43,944:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-11 18:55:43,945:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-11 18:55:43,945:INFO: setting ignored attribute cum_table to None
+2018-06-11 18:55:43,945:INFO: loaded data/insurance_wordvec.wv
+2018-06-11 18:55:52,252:INFO: Initializing tf session
+2018-06-11 18:55:55,298:INFO: Epoch 1 out of 20
+2018-06-11 18:56:05,293:INFO: 183
+2018-06-11 18:56:05,294:INFO: acc 75.71 - f1 0.00
+2018-06-11 18:56:06,602:INFO: - new best score!
+2018-06-11 18:56:06,602:INFO: Epoch 2 out of 20
+2018-06-11 18:56:16,669:INFO: 183
+2018-06-11 18:56:16,669:INFO: acc 85.31 - f1 0.00
+2018-06-11 18:56:18,055:INFO: - new best score!
+2018-06-11 18:56:18,055:INFO: Epoch 3 out of 20
+2018-06-11 18:56:28,130:INFO: 183
+2018-06-11 18:56:28,130:INFO: acc 89.96 - f1 0.00
+2018-06-11 18:56:29,351:INFO: - new best score!
+2018-06-11 18:56:29,351:INFO: Epoch 4 out of 20
+2018-06-11 18:56:39,550:INFO: 183
+2018-06-11 18:56:39,550:INFO: acc 90.63 - f1 0.00
+2018-06-11 18:56:40,862:INFO: - new best score!
+2018-06-11 18:56:40,863:INFO: Epoch 5 out of 20
+2018-06-11 18:56:51,401:INFO: 183
+2018-06-11 18:56:51,401:INFO: acc 90.27 - f1 0.00
+2018-06-11 18:56:52,707:INFO: - new best score!
+2018-06-11 18:56:52,707:INFO: Epoch 6 out of 20
+2018-06-11 18:57:03,316:INFO: 183
+2018-06-11 18:57:03,316:INFO: acc 90.90 - f1 0.00
+2018-06-11 18:57:04,624:INFO: - new best score!
+2018-06-11 18:57:04,624:INFO: Epoch 7 out of 20
+2018-06-11 18:57:15,409:INFO: 183
+2018-06-11 18:57:15,409:INFO: acc 92.96 - f1 0.00
+2018-06-11 18:57:16,744:INFO: - new best score!
+2018-06-11 18:57:16,744:INFO: Epoch 8 out of 20
+2018-06-11 18:57:27,262:INFO: 183
+2018-06-11 18:57:27,262:INFO: acc 94.67 - f1 0.00
+2018-06-11 18:57:28,582:INFO: - new best score!
+2018-06-11 18:57:28,582:INFO: Epoch 9 out of 20
+2018-06-11 18:57:39,427:INFO: 183
+2018-06-11 18:57:39,428:INFO: acc 95.40 - f1 0.00
+2018-06-11 18:57:40,666:INFO: - new best score!
+2018-06-11 18:57:40,666:INFO: Epoch 10 out of 20
+2018-06-11 18:57:51,349:INFO: 183
+2018-06-11 18:57:51,349:INFO: acc 88.61 - f1 0.00
+2018-06-11 18:57:52,752:INFO: - new best score!
+2018-06-11 18:57:52,752:INFO: Epoch 11 out of 20
+2018-06-11 18:58:03,467:INFO: 183
+2018-06-11 18:58:03,467:INFO: acc 90.42 - f1 0.00
+2018-06-11 18:58:04,733:INFO: - new best score!
+2018-06-11 18:58:04,733:INFO: Epoch 12 out of 20
+2018-06-11 18:58:15,625:INFO: 183
+2018-06-11 18:58:15,625:INFO: acc 92.14 - f1 0.00
+2018-06-11 18:58:16,933:INFO: - new best score!
+2018-06-11 18:58:16,933:INFO: Epoch 13 out of 20
+2018-06-11 18:58:27,489:INFO: 183
+2018-06-11 18:58:27,489:INFO: acc 92.77 - f1 0.00
+2018-06-11 18:58:28,812:INFO: - new best score!
+2018-06-11 18:58:28,812:INFO: Epoch 14 out of 20
+2018-06-11 18:58:39,361:INFO: 183
+2018-06-11 18:58:39,362:INFO: acc 93.29 - f1 0.00
+2018-06-11 18:58:40,681:INFO: - new best score!
+2018-06-11 18:58:40,681:INFO: Epoch 15 out of 20
+2018-06-11 18:58:51,656:INFO: 183
+2018-06-11 18:58:51,657:INFO: acc 93.88 - f1 0.00
+2018-06-11 18:58:52,956:INFO: - new best score!
+2018-06-11 18:58:52,956:INFO: Epoch 16 out of 20
+2018-06-11 18:59:04,078:INFO: 183
+2018-06-11 18:59:04,078:INFO: acc 94.46 - f1 4.96
+2018-06-11 18:59:05,389:INFO: - new best score!
+2018-06-11 18:59:05,389:INFO: Epoch 17 out of 20
+2018-06-11 18:59:15,974:INFO: 183
+2018-06-11 18:59:15,974:INFO: acc 95.88 - f1 0.00
+2018-06-11 18:59:15,974:INFO: Epoch 18 out of 20
+2018-06-11 18:59:27,087:INFO: 183
+2018-06-11 18:59:27,087:INFO: acc 94.03 - f1 1.03
+2018-06-11 18:59:27,087:INFO: Epoch 19 out of 20
+2018-06-11 18:59:38,370:INFO: 183
+2018-06-11 18:59:38,370:INFO: acc 96.50 - f1 0.00
+2018-06-11 18:59:38,370:INFO: Epoch 20 out of 20
+2018-06-11 18:59:49,820:INFO: 183
+2018-06-11 18:59:49,820:INFO: acc 96.53 - f1 2.04
+2018-06-11 18:59:52,003:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-11 18:59:52,130:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-11 18:59:52,130:INFO: setting ignored attribute vectors_norm to None
+2018-06-11 18:59:52,130:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-11 18:59:52,130:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-11 18:59:52,131:INFO: setting ignored attribute cum_table to None
+2018-06-11 18:59:52,131:INFO: loaded data/insurance_wordvec.wv
+2018-06-11 19:00:00,419:INFO: Initializing tf session
+2018-06-11 19:00:01,253:INFO: Reloading the latest trained model...
+2018-06-11 19:00:01,253:INFO: Restoring parameters from results/test/model.weights/
+2018-06-11 19:00:01,409:INFO: Testing model over test set
+2018-06-11 19:00:04,264:INFO: 183
+2018-06-11 19:00:04,264:INFO: acc 94.46 - f1 4.96
+2018-06-12 11:20:11,910:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-12 11:20:12,044:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-12 11:20:12,044:INFO: setting ignored attribute vectors_norm to None
+2018-06-12 11:20:12,045:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-12 11:20:12,045:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-12 11:20:12,045:INFO: setting ignored attribute cum_table to None
+2018-06-12 11:20:12,045:INFO: loaded data/insurance_wordvec.wv
+2018-06-12 11:20:29,191:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-12 11:20:29,308:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-12 11:20:29,309:INFO: setting ignored attribute vectors_norm to None
+2018-06-12 11:20:29,309:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-12 11:20:29,309:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-12 11:20:29,310:INFO: setting ignored attribute cum_table to None
+2018-06-12 11:20:29,310:INFO: loaded data/insurance_wordvec.wv
+2018-06-12 11:20:38,852:INFO: Initializing tf session
+2018-06-12 11:20:42,319:INFO: Epoch 1 out of 20
+2018-06-12 11:28:10,281:INFO: 3544
+2018-06-12 11:28:10,300:INFO: acc 87.97 - f1 58.74
+2018-06-12 11:28:11,991:INFO: - new best score!
+2018-06-12 11:28:11,991:INFO: Epoch 2 out of 20
+2018-06-12 11:35:34,448:INFO: 3544
+2018-06-12 11:35:34,456:INFO: acc 91.40 - f1 76.35
+2018-06-12 11:35:36,487:INFO: - new best score!
+2018-06-12 11:35:36,488:INFO: Epoch 3 out of 20
+2018-06-12 11:44:20,149:INFO: 3544
+2018-06-12 11:44:20,156:INFO: acc 95.44 - f1 75.66
+2018-06-12 11:44:20,156:INFO: Epoch 4 out of 20
+2018-06-12 11:53:27,738:INFO: 3544
+2018-06-12 11:53:27,741:INFO: acc 95.94 - f1 81.94
+2018-06-12 11:53:29,584:INFO: - new best score!
+2018-06-12 11:53:29,584:INFO: Epoch 5 out of 20
+2018-06-12 12:02:00,556:INFO: 3544
+2018-06-12 12:02:00,564:INFO: acc 97.60 - f1 86.07
+2018-06-12 12:02:02,312:INFO: - new best score!
+2018-06-12 12:02:02,312:INFO: Epoch 6 out of 20
+2018-06-12 12:10:15,224:INFO: 3544
+2018-06-12 12:10:15,227:INFO: acc 98.80 - f1 91.80
+2018-06-12 12:10:17,170:INFO: - new best score!
+2018-06-12 12:10:17,170:INFO: Epoch 7 out of 20
+2018-06-12 12:18:29,571:INFO: 3544
+2018-06-12 12:18:29,574:INFO: acc 99.26 - f1 93.11
+2018-06-12 12:18:31,622:INFO: - new best score!
+2018-06-12 12:18:31,623:INFO: Epoch 8 out of 20
+2018-06-12 12:28:00,470:INFO: 3544
+2018-06-12 12:28:00,474:INFO: acc 99.40 - f1 93.96
+2018-06-12 12:28:02,464:INFO: - new best score!
+2018-06-12 12:28:02,464:INFO: Epoch 9 out of 20
+2018-06-12 12:36:29,500:INFO: 3544
+2018-06-12 12:36:29,503:INFO: acc 99.38 - f1 95.23
+2018-06-12 12:36:31,137:INFO: - new best score!
+2018-06-12 12:36:31,137:INFO: Epoch 10 out of 20
+2018-06-12 12:44:46,884:INFO: 3544
+2018-06-12 12:44:46,886:INFO: acc 99.36 - f1 95.28
+2018-06-12 12:44:48,787:INFO: - new best score!
+2018-06-12 12:44:48,787:INFO: Epoch 11 out of 20
+2018-06-12 13:05:32,311:INFO: 3544
+2018-06-12 13:05:32,313:INFO: acc 99.52 - f1 95.76
+2018-06-12 13:05:34,077:INFO: - new best score!
+2018-06-12 13:05:34,077:INFO: Epoch 12 out of 20
+2018-06-12 13:28:58,436:INFO: 3544
+2018-06-12 13:28:58,439:INFO: acc 99.65 - f1 95.99
+2018-06-12 13:29:00,029:INFO: - new best score!
+2018-06-12 13:29:00,029:INFO: Epoch 13 out of 20
+2018-06-12 13:35:55,814:INFO: 3544
+2018-06-12 13:35:55,817:INFO: acc 99.65 - f1 96.10
+2018-06-12 13:35:57,501:INFO: - new best score!
+2018-06-12 13:35:57,501:INFO: Epoch 14 out of 20
+2018-06-12 13:43:39,611:INFO: 3544
+2018-06-12 13:43:39,614:INFO: acc 99.70 - f1 96.60
+2018-06-12 13:43:41,269:INFO: - new best score!
+2018-06-12 13:43:41,270:INFO: Epoch 15 out of 20
+2018-06-12 13:52:46,080:INFO: 3544
+2018-06-12 13:52:46,083:INFO: acc 99.72 - f1 96.89
+2018-06-12 13:52:47,994:INFO: - new best score!
+2018-06-12 13:52:47,994:INFO: Epoch 16 out of 20
+2018-06-12 14:01:46,378:INFO: 3544
+2018-06-12 14:01:46,382:INFO: acc 99.70 - f1 96.12
+2018-06-12 14:01:46,382:INFO: Epoch 17 out of 20
+2018-06-12 14:09:44,687:INFO: 3544
+2018-06-12 14:09:44,694:INFO: acc 99.69 - f1 97.11
+2018-06-12 14:09:46,321:INFO: - new best score!
+2018-06-12 14:09:46,321:INFO: Epoch 18 out of 20
+2018-06-12 14:25:08,305:INFO: 3544
+2018-06-12 14:25:08,310:INFO: acc 99.75 - f1 97.26
+2018-06-12 14:25:10,055:INFO: - new best score!
+2018-06-12 14:25:10,055:INFO: Epoch 19 out of 20
+2018-06-12 14:32:27,810:INFO: 3544
+2018-06-12 14:32:27,814:INFO: acc 99.83 - f1 97.50
+2018-06-12 14:32:29,587:INFO: - new best score!
+2018-06-12 14:32:29,587:INFO: Epoch 20 out of 20
+2018-06-12 14:40:04,353:INFO: 3544
+2018-06-12 14:40:04,356:INFO: acc 99.82 - f1 97.61
+2018-06-12 14:40:06,136:INFO: - new best score!
+2018-06-12 14:40:09,979:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-12 14:40:10,108:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-12 14:40:10,108:INFO: setting ignored attribute vectors_norm to None
+2018-06-12 14:40:10,109:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-12 14:40:10,109:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-12 14:40:10,109:INFO: setting ignored attribute cum_table to None
+2018-06-12 14:40:10,109:INFO: loaded data/insurance_wordvec.wv
+2018-06-12 14:40:20,926:INFO: Initializing tf session
+2018-06-12 14:40:21,914:INFO: Reloading the latest trained model...
+2018-06-12 14:40:21,914:INFO: Restoring parameters from results/test/model.weights/
+2018-06-12 14:40:22,089:INFO: Testing model over test set
+2018-06-12 14:42:11,416:INFO: 3544
+2018-06-12 14:42:11,420:INFO: acc 99.82 - f1 97.61
+2018-06-12 16:22:24,691:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-12 16:22:24,826:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-12 16:22:24,826:INFO: setting ignored attribute vectors_norm to None
+2018-06-12 16:22:24,827:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-12 16:22:24,827:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-12 16:22:24,827:INFO: setting ignored attribute cum_table to None
+2018-06-12 16:22:24,827:INFO: loaded data/insurance_wordvec.wv
+2018-06-12 16:22:35,250:INFO: Initializing tf session
+2018-06-12 16:22:38,756:INFO: Epoch 1 out of 20
+2018-06-12 17:04:52,233:INFO: 1992
+2018-06-12 17:04:52,244:INFO: acc 65.41 - f1 0.00
+2018-06-12 17:04:53,954:INFO: - new best score!
+2018-06-12 17:04:53,954:INFO: Epoch 2 out of 20
+2018-06-12 17:36:32,341:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-06-12 17:36:32,462:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-06-12 17:36:32,462:INFO: setting ignored attribute vectors_norm to None
+2018-06-12 17:36:32,463:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-06-12 17:36:32,463:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-06-12 17:36:32,463:INFO: setting ignored attribute cum_table to None
+2018-06-12 17:36:32,463:INFO: loaded data/insurance_wordvec.wv
+2018-06-12 17:36:41,357:INFO: Initializing tf session
+2018-06-12 17:36:44,471:INFO: Epoch 1 out of 20
+2018-06-12 18:15:12,082:INFO: 1992
+2018-06-12 18:15:12,092:INFO: acc 49.90 - f1 0.00
+2018-06-12 18:15:13,736:INFO: - new best score!
+2018-06-12 18:15:13,736:INFO: Epoch 2 out of 20
