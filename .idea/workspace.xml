@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6cca7ae-f0bd-4304-9f48-a858c9aed6b9" name="Default" comment="" />
+    <list default="true" id="e6cca7ae-f0bd-4304-9f48-a858c9aed6b9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/model/ner_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/ner_model.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,8 +25,8 @@
       <file leaf-file-name="ner_model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/model/ner_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="98" column="53" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="54" />
+            <state relative-caret-position="463">
+              <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -95,8 +97,8 @@
       <list>
         <option value="$PROJECT_DIR$/model/data_utils.py" />
         <option value="$PROJECT_DIR$/model/base_model.py" />
-        <option value="$PROJECT_DIR$/model/ner_model.py" />
         <option value="$PROJECT_DIR$/model/config.py" />
+        <option value="$PROJECT_DIR$/model/ner_model.py" />
       </list>
     </option>
   </component>
@@ -307,8 +309,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/ner_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="98" column="53" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="54" />
+        <state relative-caret-position="463">
+          <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
