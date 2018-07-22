@@ -1,0 +1,5 @@
+train_data_format:
+    ipdb> pp word
+    ([11, 17, 26, 0], 20)
+    ipdb> pp tag
+    6
