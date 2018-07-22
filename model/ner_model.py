@@ -101,7 +101,8 @@ class NERModel(BaseModel):
         total_loaded_size = 0
         for word, idx in self.config.vocab_words.items():
             if word in self.config.wordvecs.wv:
-                embed_mat[idx, :] = self.config.wordvecs.wv[word]
+                temp_vec = self.config.wordvecs.wv[word]
+                embed_mat[idx, :] = temp_vec
                 total_loaded_size += 1
                 print('word %s in wordvec' % word)
         print('total loaded size is %d' % total_loaded_size)
