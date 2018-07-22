@@ -73,6 +73,7 @@ class CoNLLDataset(object):
                 else:
                     ls = line.split('\t')
                     word, tag = ls[0],ls[-1]
+                    # 将word／tag替换为idx
                     if self.processing_word is not None:
                         word = self.processing_word(word)
                     if self.processing_tag is not None:

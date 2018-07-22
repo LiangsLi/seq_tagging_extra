@@ -78,16 +78,26 @@ class Config():
     # filename_test = "data/coNLL/eng/eng.testb.iob"
     # filename_train = "data/coNLL/eng/eng.train.iob"
 
-    filename_dev = "data/test_data.txt" # test
-    filename_train = "data/train_data.txt"
-    filename_test = "data/test_data.txt"
+    # filename_dev = "data/test_data.txt"     # test
+    filename_dev = "new_data/test_tag.txt"     # test
+
+    # filename_train = "data/train_data.txt"
+    filename_train = "new_data/train_tag.txt"
+
+    # filename_test = "data/test_data.txt"
+    filename_test = "new_data/test_tag.txt"
+
     # filename_test = "data/test_data.txt"
 
     max_iter = None # if not None, max number of examples in Dataset
 
     # vocab (created from dataset with build_data.py)
-    filename_words = "data/data_vocab.txt"
-    filename_tags = "data/tags_vocab.txt"
+    # filename_words = "data/data_vocab.txt"
+    filename_words = "new_data/word_vocab.txt"
+
+    # filename_tags = "data/tags_vocab.txt"
+    filename_tags = "new_data/tag_vocab.txt"
+
     filename_chars = "data/chars.txt"
 
     # training
