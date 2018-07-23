@@ -187,7 +187,7 @@ def load_vocab(filename):
         d = dict()
         with open(filename) as f:
             for idx, word in enumerate(f):
-                word = word.strip()
+                word = word.strip('\n')
                 d[word] = idx
 
     except IOError:

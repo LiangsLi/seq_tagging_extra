@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6cca7ae-f0bd-4304-9f48-a858c9aed6b9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/model/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/ner_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/ner_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_data/word_vocab.txt" beforeDir="false" afterPath="$PROJECT_DIR$/new_data/word_vocab.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ner_model.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ner_model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/ner_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="99" column="38" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="38" />
+            <state relative-caret-position="-35">
+              <caret line="118" column="45" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -35,23 +34,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train.py">
+      <file leaf-file-name="tag_vocab.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new_data/tag_vocab.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-12828" />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+            <state relative-caret-position="225">
+              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -68,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="word_vocab.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="word_vocab.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/new_data/word_vocab.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2990">
-              <caret line="3818" column="2" selection-start-line="3818" selection-start-column="2" selection-end-line="3818" selection-end-column="2" />
+            <state relative-caret-position="112">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -87,6 +81,11 @@
       <file leaf-file-name="test_tag.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/new_data/test_tag.txt">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="train_tag.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/new_data/train_tag.txt">
+          <provider selected="true" editor-type-id="LargeFileEditor" />
         </entry>
       </file>
       <file leaf-file-name="data_utils.py" pinned="false" current-in-tab="false">
@@ -121,6 +120,7 @@
         <option value="$PROJECT_DIR$/model/base_model.py" />
         <option value="$PROJECT_DIR$/model/config.py" />
         <option value="$PROJECT_DIR$/model/ner_model.py" />
+        <option value="$PROJECT_DIR$/new_data/word_vocab.txt" />
       </list>
     </option>
   </component>
@@ -210,15 +210,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Python Console" visible="true" weight="0.32969698" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32969698" />
+      <window_info anchor="bottom" id="Python Console" weight="0.32969698" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32969698" />
       <window_info anchor="right" id="Remote Host" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19241774" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -309,9 +308,6 @@
         <state relative-caret-position="-2790" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_data/test_tag.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/data_vocab.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-22690">
@@ -326,17 +322,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_data/word_vocab.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2990">
-          <caret line="3818" column="2" selection-start-line="3818" selection-start-column="2" selection-end-line="3818" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        <state relative-caret-position="225">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -345,11 +334,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model/ner_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="99" column="38" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="38" />
+        <state relative-caret-position="-35">
+          <caret line="118" column="45" selection-start-line="118" selection-start-column="45" selection-end-line="118" selection-end-column="45" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_data/test_tag.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_data/tag_vocab.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12828" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_data/train_tag.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_data/word_vocab.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
