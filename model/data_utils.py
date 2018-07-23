@@ -1,9 +1,9 @@
 import numpy as np
 import os
 
-
 # shared global variables to be imported from model also
-UNK = "$UNK$"
+# UNK = "$UNK$"
+UNK = '$UNK$'
 NUM = "$NUM$"
 NONE = "O-合同构成"
 
@@ -40,6 +40,7 @@ class CoNLLDataset(object):
         ```
 
     """
+    
     def __init__(self, filename, processing_word=None, processing_tag=None,
                  max_iter=None):
         """
@@ -55,11 +56,10 @@ class CoNLLDataset(object):
         self.processing_tag = processing_tag
         self.max_iter = max_iter
         self.length = None
-
-
+    
     def __iter__(self):
         niter = 0
-        with open(self.filename) as f:
+        with open(self.filename, encoding='utf-8') as f:
             words, tags = [], []
             for line in f:
                 line = line.strip()
@@ -72,7 +72,7 @@ class CoNLLDataset(object):
                         words, tags = [], []
                 else:
                     ls = line.split('\t')
-                    word, tag = ls[0],ls[-1]
+                    word, tag = ls[0], ls[-1]
                     # 将word／tag替换为idx
                     if self.processing_word is not None:
                         word = self.processing_word(word)
@@ -80,15 +80,14 @@ class CoNLLDataset(object):
                         tag = self.processing_tag(tag)
                     words += [word]
                     tags += [tag]
-
-
+    
     def __len__(self):
         """Iterates once over the corpus to set and store length"""
         if self.length is None:
             self.length = 0
             for _ in self:
                 self.length += 1
-
+        
         return self.length
 
 
@@ -127,7 +126,7 @@ def get_char_vocab(dataset):
     for words, _ in dataset:
         for word in words:
             vocab_char.update(word)
-
+    
     return vocab_char
 
 
@@ -185,11 +184,11 @@ def load_vocab(filename):
     """
     try:
         d = dict()
-        with open(filename) as f:
+        with open(filename, encoding='utf-8') as f:
             for idx, word in enumerate(f):
-                word = word.strip()
+                word = word.strip('\n')
                 d[word] = idx
-
+    
     except IOError:
         raise MyIOError(filename)
     return d
@@ -214,7 +213,7 @@ def export_trimmed_glove_vectors(vocab, glove_filename, trimmed_filename, dim):
             if word in vocab:
                 word_idx = vocab[word]
                 embeddings[word_idx] = np.asarray(embedding)
-
+    
     np.savez_compressed(trimmed_filename, embeddings=embeddings)
 
 
@@ -230,13 +229,13 @@ def get_trimmed_glove_vectors(filename):
     try:
         with np.load(filename) as data:
             return data["embeddings"]
-
+    
     except IOError:
         raise MyIOError(filename)
 
 
 def get_processing_word(vocab_words=None, vocab_chars=None,
-                    lowercase=False, chars=False, allow_unk=True):
+                        lowercase=False, chars=False, allow_unk=True):
     """Return lambda function that transform a word (string) into list,
     or tuple of (list, id) of int corresponding to the ids of the word and
     its corresponding characters.
@@ -249,6 +248,7 @@ def get_processing_word(vocab_words=None, vocab_chars=None,
                  = (list of char ids, word id)
 
     """
+    
     def f(word):
         # 0. get chars of words
         if vocab_chars is not None and chars == True:
@@ -257,13 +257,13 @@ def get_processing_word(vocab_words=None, vocab_chars=None,
                 # ignore chars out of vocabulary
                 if char in vocab_chars:
                     char_ids += [vocab_chars[char]]
-
+        
         # 1. preprocess word
         if lowercase:
             word = word.lower()
         if word.isdigit():
             word = NUM
-
+        
         # 2. get id of word
         if vocab_words is not None:
             if word in vocab_words:
@@ -272,15 +272,15 @@ def get_processing_word(vocab_words=None, vocab_chars=None,
                 if allow_unk:
                     word = vocab_words[UNK]
                 else:
-                    raise Exception("Unknow key is not allowed. Check that "\
+                    raise Exception("Unknow key is not allowed. Check that " \
                                     "your vocab (tags?) is correct")
-
+        
         # 3. return tuple char ids, word id
         if vocab_chars is not None and chars == True:
             return char_ids, word
         else:
             return word
-
+    
     return f
 
 
@@ -294,13 +294,13 @@ def _pad_sequences(sequences, pad_tok, max_length):
         a list of list where each sublist has same length
     """
     sequence_padded, sequence_length = [], []
-
+    
     for seq in sequences:
         seq = list(seq)
-        seq_ = seq[:max_length] + [pad_tok]*max(max_length - len(seq), 0)
-        sequence_padded +=  [seq_]
+        seq_ = seq[:max_length] + [pad_tok] * max(max_length - len(seq), 0)
+        sequence_padded += [seq_]
         sequence_length += [min(len(seq), max_length)]
-
+    
     return sequence_padded, sequence_length
 
 
@@ -316,10 +316,10 @@ def pad_sequences(sequences, pad_tok, nlevels=1):
 
     """
     if nlevels == 1:
-        max_length = max(map(lambda x : len(x), sequences))
+        max_length = max(map(lambda x: len(x), sequences))
         sequence_padded, sequence_length = _pad_sequences(sequences,
-                                            pad_tok, max_length)
-
+                                                          pad_tok, max_length)
+    
     elif nlevels == 2:
         max_length_word = max([max(map(lambda x: len(x), seq))
                                for seq in sequences])
@@ -329,13 +329,13 @@ def pad_sequences(sequences, pad_tok, nlevels=1):
             sp, sl = _pad_sequences(seq, pad_tok, max_length_word)
             sequence_padded += [sp]
             sequence_length += [sl]
-
-        max_length_sentence = max(map(lambda x : len(x), sequences))
+        
+        max_length_sentence = max(map(lambda x: len(x), sequences))
         sequence_padded, _ = _pad_sequences(sequence_padded,
-                [pad_tok]*max_length_word, max_length_sentence)
+                                            [pad_tok] * max_length_word, max_length_sentence)
         sequence_length, _ = _pad_sequences(sequence_length, 0,
-                max_length_sentence)
-
+                                            max_length_sentence)
+    
     return sequence_padded, sequence_length
 
 
@@ -354,12 +354,12 @@ def minibatches(data, minibatch_size):
         if len(x_batch) == minibatch_size:
             yield x_batch, y_batch
             x_batch, y_batch = [], []
-
+        
         if type(x[0]) == tuple:
             x = zip(*x)
         x_batch += [x]
         y_batch += [y]
-
+    
     if len(x_batch) != 0:
         yield x_batch, y_batch
 
@@ -409,7 +409,7 @@ def get_chunks(seq, tags):
             chunks.append(chunk)
             chunk_type, chunk_start = None, None
             previous_chunk_class = 'O'
-
+        
         # End of a chunk + start of a chunk!
         elif tok != default:
             tok_chunk_class, tok_chunk_type = get_chunk_type(tok, idx_to_tag)
@@ -423,10 +423,10 @@ def get_chunks(seq, tags):
                 chunk_type, chunk_start = tok_chunk_type, i
         else:
             pass
-
+    
     # end condition
     if chunk_type is not None and previous_chunk_class == 'E':
         chunk = (chunk_type, chunk_start, len(seq))
         chunks.append(chunk)
-
+    
     return chunks

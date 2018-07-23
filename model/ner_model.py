@@ -102,9 +102,9 @@ class NERModel(BaseModel):
         for word, idx in self.config.vocab_words.items():
             if word in self.config.wordvecs.wv:
                 print("idx:", idx)
-                if idx >= vocab_size:
-                    print("error------------>>>>>>.")
-                    continue
+                # if idx >= vocab_size:
+                #     print("error------------>>>>>>.")
+                #     continue
                 temp_vec = self.config.wordvecs.wv[word]
                 embed_mat[idx, :] = temp_vec
                 total_loaded_size += 1
@@ -307,7 +307,7 @@ class NERModel(BaseModel):
         for i, (words, labels) in enumerate(minibatches(train, batch_size)):
             fd, _ = self.get_feed_dict(words, labels, self.config.lr,
                                        self.config.dropout)
-            
+            print("***run epoch***")
             _, train_loss, summary = self.sess.run(
                 [self.train_op, self.loss, self.merged], feed_dict=fd)
             
