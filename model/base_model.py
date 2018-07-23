@@ -64,7 +64,10 @@ class BaseModel(object):
         创建model所属的sess，同时执行全局初始化，同时设置self.saver
         """
         self.logger.info("Initializing tf session")
-        self.sess = tf.Session()
+        config = tf.ConfigProto()
+        config.gpu_options.allow_growth = True
+        # session = tf.Session(config=config, ...)
+        self.sess = tf.Session(config=config)
         self.sess.run(tf.global_variables_initializer())
         self.saver = tf.train.Saver()
     

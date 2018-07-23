@@ -42,7 +42,7 @@ class CoNLLDataset(object):
     """
     
     def __init__(self, filename, processing_word=None, processing_tag=None,
-                 max_iter=None):
+                 max_iter=None, max_len=None):
         """
         Args:
             filename: path to the file
@@ -56,14 +56,17 @@ class CoNLLDataset(object):
         self.processing_tag = processing_tag
         self.max_iter = max_iter
         self.length = None
+        self.max_len = max_len
     
     def __iter__(self):
         niter = 0
         with open(self.filename, encoding='utf-8') as f:
             words, tags = [], []
+            sent_len = 0
             for line in f:
                 line = line.strip()
                 if line.startswith("####"):
+                    sent_len = 0
                     if len(words) != 0:
                         niter += 1
                         if self.max_iter is not None and niter > self.max_iter:
@@ -71,6 +74,7 @@ class CoNLLDataset(object):
                         yield words, tags
                         words, tags = [], []
                 else:
+                    sent_len += 1
                     ls = line.split('\t')
                     word, tag = ls[0], ls[-1]
                     # 将word／tag替换为idx
@@ -78,8 +82,9 @@ class CoNLLDataset(object):
                         word = self.processing_word(word)
                     if self.processing_tag is not None:
                         tag = self.processing_tag(tag)
-                    words += [word]
-                    tags += [tag]
+                    if sent_len <= self.max_len:
+                        words += [word]
+                        tags += [tag]
     
     def __len__(self):
         """Iterates once over the corpus to set and store length"""

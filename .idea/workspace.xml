@@ -4,9 +4,8 @@
     <list default="true" id="e6cca7ae-f0bd-4304-9f48-a858c9aed6b9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/data_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/data_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/ner_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/ner_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/语音技术简介.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/results/test/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/test/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,14 +15,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/sequence_tagging$train.coverage" NAME="train Coverage Results" MODIFIED="1532314067563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sequence_tagging$train.coverage" NAME="train Coverage Results" MODIFIED="1532323866840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="ner_model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/ner_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
+            <state relative-caret-position="5562">
               <caret line="309" column="31" selection-start-line="309" selection-start-column="31" selection-end-line="309" selection-end-column="31" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -35,8 +34,8 @@
       <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="324">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -44,23 +43,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data_utils.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="data_utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/data_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="3744">
+              <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build_data.py">
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="1290">
+              <caret line="116" column="38" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,8 +67,11 @@
       <file leaf-file-name="base_model.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/base_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+            <state relative-caret-position="384">
+              <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,12 +80,15 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tf.Session</find>
       <find>城镇职工基本医疗保险</find>
       <find>中心</find>
       <find>火化</find>
-      <find>run_epoch</find>
       <find>allow_unk</find>
+      <find>get_processing_word</find>
+      <find>tf.Session</find>
+      <find>NONE</find>
+      <find>UNK</find>
+      <find>run_epoch</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -95,10 +100,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/model/base_model.py" />
-        <option value="$PROJECT_DIR$/new_data/word_vocab.txt" />
-        <option value="$PROJECT_DIR$/model/config.py" />
         <option value="$PROJECT_DIR$/model/ner_model.py" />
+        <option value="$PROJECT_DIR$/new_data/word_vocab.txt" />
+        <option value="$PROJECT_DIR$/model/base_model.py" />
+        <option value="$PROJECT_DIR$/model/config.py" />
         <option value="$PROJECT_DIR$/train.py" />
         <option value="$PROJECT_DIR$/model/data_utils.py" />
       </list>
@@ -114,8 +119,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="1440" />
+    <option name="y" value="-70" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -210,18 +217,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="1440" y="-70" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5007153" side_tool="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5042424" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" weight="0.32969698" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49928468" weight="0.32969698" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5034826" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32935324" />
+      <window_info anchor="bottom" id="Python Console" weight="0.32935324" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.49928468" weight="0.27064678" />
       <window_info anchor="right" id="Remote Host" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19241774" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14323749" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -272,26 +279,26 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/model/base_model.py</url>
-          <line>70</line>
+          <line>73</line>
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/model/base_model.py</url>
-          <line>79</line>
+          <line>82</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/model/base_model.py</url>
-          <line>87</line>
+          <line>90</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/model/base_model.py</url>
-          <line>102</line>
+          <line>105</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/model/base_model.py</url>
-          <line>103</line>
+          <line>106</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
@@ -317,16 +324,6 @@
         <state relative-caret-position="-2790" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/data_vocab.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19794">
-          <caret line="5270" selection-start-line="5270" selection-end-line="5270" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new_data/train_tag.txt">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/new_data/test_tag.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -337,26 +334,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/new_data/word_vocab.txt">
+    <entry file="file://$PROJECT_DIR$/build_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        <state>
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/ner_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
+        <state relative-caret-position="5562">
           <caret line="309" column="31" selection-start-line="309" selection-start-column="31" selection-end-line="309" selection-end-column="31" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -364,36 +353,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/base_model.py">
+    <entry file="file://$PROJECT_DIR$/data/data_vocab.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+        <state relative-caret-position="36414">
+          <caret line="2023" column="4" selection-start-line="2023" selection-start-column="1" selection-end-line="2023" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="324">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build_data.py">
+    <entry file="file://$PROJECT_DIR$/new_data/word_vocab.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="620">
+          <caret line="3994" column="4" selection-start-line="3994" selection-start-column="4" selection-end-line="3994" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/data_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="3744">
+          <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_data/train_tag.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-67288" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/train_data.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="82">
+          <caret line="3894" column="11" selection-start-line="3894" selection-start-column="11" selection-end-line="3894" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/base_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="116" column="38" selection-start-line="116" selection-start-column="38" selection-end-line="116" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
