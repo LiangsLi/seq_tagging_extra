@@ -2,3 +2,4 @@
 *pyc
 !/data/.gitkeep
 *.DS_Store
+results/

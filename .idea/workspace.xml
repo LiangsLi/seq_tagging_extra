@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/data_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/data_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/model/ner_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/ner_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_data/word_vocab.txt" beforeDir="false" afterPath="$PROJECT_DIR$/new_data/word_vocab.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/results/test/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/results/test/log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
@@ -16,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/sequence_tagging$train.coverage" NAME="train Coverage Results" MODIFIED="1532314067563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sequence_tagging$train.coverage" NAME="train Coverage Results" MODIFIED="1532315088048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -35,8 +36,8 @@
       <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state relative-caret-position="288">
+              <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -44,14 +45,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data_utils.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/data_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="72">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data_vocab.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/data_vocab.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36414">
+              <caret line="2023" column="4" selection-start-line="2023" selection-start-column="1" selection-end-line="2023" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="word_vocab.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/new_data/word_vocab.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="3994" column="4" selection-start-line="3994" selection-start-column="4" selection-end-line="3994" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -59,8 +87,10 @@
       <file leaf-file-name="build_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state>
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,6 +114,9 @@
       <find>火化</find>
       <find>run_epoch</find>
       <find>allow_unk</find>
+      <find>UNK</find>
+      <find>get_processing_word</find>
+      <find>NONE</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -96,11 +129,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/model/base_model.py" />
-        <option value="$PROJECT_DIR$/new_data/word_vocab.txt" />
         <option value="$PROJECT_DIR$/model/config.py" />
         <option value="$PROJECT_DIR$/model/ner_model.py" />
         <option value="$PROJECT_DIR$/train.py" />
         <option value="$PROJECT_DIR$/model/data_utils.py" />
+        <option value="$PROJECT_DIR$/new_data/word_vocab.txt" />
       </list>
     </option>
   </component>
@@ -211,7 +244,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5007153" side_tool="true" weight="0.32969698" />
@@ -219,7 +251,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.5042424" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" weight="0.32969698" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49928468" weight="0.32969698" />
+      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.49928468" visible="true" weight="0.32969698" />
       <window_info anchor="right" id="Remote Host" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19241774" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -317,13 +349,6 @@
         <state relative-caret-position="-2790" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/data_vocab.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19794">
-          <caret line="5270" selection-start-line="5270" selection-end-line="5270" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/new_data/train_tag.txt">
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
@@ -334,23 +359,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-96">
           <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/new_data/word_vocab.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -373,28 +381,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="288">
+          <caret line="16" column="67" selection-start-line="16" selection-start-column="67" selection-end-line="16" selection-end-column="67" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build_data.py">
+    <entry file="file://$PROJECT_DIR$/data/data_vocab.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="36414">
+          <caret line="2023" column="4" selection-start-line="2023" selection-start-column="1" selection-end-line="2023" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/data_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="72">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_data/word_vocab.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="3994" column="4" selection-start-line="3994" selection-start-column="4" selection-end-line="3994" selection-end-column="4" />
         </state>
       </provider>
     </entry>
