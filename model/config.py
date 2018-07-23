@@ -92,8 +92,8 @@ class Config():
     max_iter = None # if not None, max number of examples in Dataset
 
     # vocab (created from dataset with build_data.py)
-    # filename_words = "data/data_vocab.txt"
-    filename_words = "new_data/word_vocab.txt"
+    filename_words = "data/data_vocab.txt"
+    # filename_words = "new_data/word_vocab.txt"
 
     # filename_tags = "data/tags_vocab.txt"
     filename_tags = "new_data/tag_vocab.txt"
