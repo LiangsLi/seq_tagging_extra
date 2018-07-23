@@ -1806,3 +1806,19 @@ Instructions for updating:
 batch_dim is deprecated, use batch_axis instead
 2018-07-23 11:04:56,699:INFO: Initializing tf session
 2018-07-23 11:04:57,403:INFO: Epoch 1 out of 20
+2018-07-23 12:34:31,602:INFO: loading Word2Vec object from data/insurance_wordvec.wv
+2018-07-23 12:34:31,602:DEBUG: {'kw': {}, 'mode': 'rb', 'uri': 'data/insurance_wordvec.wv'}
+2018-07-23 12:34:31,770:INFO: loading wv recursively from data/insurance_wordvec.wv.wv.* with mmap=None
+2018-07-23 12:34:31,770:INFO: setting ignored attribute vectors_norm to None
+2018-07-23 12:34:31,770:INFO: loading vocabulary recursively from data/insurance_wordvec.wv.vocabulary.* with mmap=None
+2018-07-23 12:34:31,770:INFO: loading trainables recursively from data/insurance_wordvec.wv.trainables.* with mmap=None
+2018-07-23 12:34:31,770:INFO: setting ignored attribute cum_table to None
+2018-07-23 12:34:31,770:INFO: loaded data/insurance_wordvec.wv
+2018-07-23 12:34:35,508:WARNING: From /Users/liangs/.pyenv/versions/infor_extra/lib/python3.6/site-packages/tensorflow/python/ops/rnn.py:417: calling reverse_sequence (from tensorflow.python.ops.array_ops) with seq_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+seq_dim is deprecated, use seq_axis instead
+2018-07-23 12:34:35,509:WARNING: From /Users/liangs/.pyenv/versions/infor_extra/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py:432: calling reverse_sequence (from tensorflow.python.ops.array_ops) with batch_dim is deprecated and will be removed in a future version.
+Instructions for updating:
+batch_dim is deprecated, use batch_axis instead
+2018-07-23 12:34:37,069:INFO: Initializing tf session
+2018-07-23 12:34:37,797:INFO: Epoch 1 out of 20
