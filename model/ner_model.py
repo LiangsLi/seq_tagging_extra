@@ -102,9 +102,9 @@ class NERModel(BaseModel):
         for word, idx in self.config.vocab_words.items():
             if word in self.config.wordvecs.wv:
                 print("idx:", idx)
-                if idx >= vocab_size:
-                    print("error------------>>>>>>.")
-                    continue
+                # if idx >= vocab_size:
+                #     print("error------------>>>>>>.")
+                #     continue
                 temp_vec = self.config.wordvecs.wv[word]
                 embed_mat[idx, :] = temp_vec
                 total_loaded_size += 1
