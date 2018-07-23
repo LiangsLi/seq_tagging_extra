@@ -62,6 +62,7 @@ class CoNLLDataset(object):
         niter = 0
         with open(self.filename, encoding='utf-8') as f:
             words, tags = [], []
+            sent_len = 0
             for line in f:
                 line = line.strip()
                 if line.startswith("####"):
